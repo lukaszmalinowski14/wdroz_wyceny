@@ -1,0 +1,169 @@
+--------------------------------------------------------------------------------
+Translator Name    : Spatial InterOp Connect ( Version : 2019 1.0.0)
+System Name        : Windows_NT
+Machine Name       : D01
+User Name          : jaroslaw.malicki
+Source System      : 3DXML
+Destination System : STL
+Input File         : N:\DZ-SiM\ClientGroup\Alstom Chorz*w\RFQ\2023\266ERS23proc\Dokumentacja\GL00001874056_GLD0001874058_A00.3dxml
+Output File        : N:\DZ-SiM\ClientGroup\Alstom Chorz*w\RFQ\2023\266ERS23proc\Dokumentacja\GL00001874056_GLD0001874058_A00.stl
+Start Time         : Mon May 15 09:22:03 2023
+
+--------------------------------------------------------------------------------
+Message : === Translation Options ===
+Message : TranslateSuppressedEntities : false
+Message : ReadVisibleLayerOnly : true
+Message : TranslateFreePoints : true
+Message : TranslateFreeCurves : true
+Message : Flatten : false
+Message : SetAuthorName : 3D-Tool
+Message : AssemblySearchPath : N:\DZ-SiM\ClientGroup\Alstom Chorzw\RFQ\2023\266ERS23proc\Dokumentacja
+Message : TranslateWorkPlanes : false
+Message : TranslateHiddenEntities : false
+Message : TranslateAttributes : true
+Message : Representation : Assembly+BRep+Visualization
+Message : TranslateAssemblies : true
+Message : Healing : false
+Message : AuthorName : 3D-Tool
+Message : ===========================
+-------------------------Source File Header Information-------------------------
+Version                  : 4.3
+Author                   : S_SDC1_vpmadm
+Organization             : CATIA V5
+Modification Date        : 2023-03-21
+Units                    : MILLIMETER
+Document Type            : Assembly
+File Name                : GL00001874056_GLD0001874058_A00
+Format Type              : 3DXML
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Source Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start Assembly
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Assembly Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+Message : === Translation Options ===
+Message : TranslateSuppressedEntities : false
+Message : ReadVisibleLayerOnly : true
+Message : TranslateFreePoints : true
+Message : TranslateFreeCurves : true
+Message : Flatten : false
+Message : SetAuthorName : 3D-Tool
+Message : AssemblySearchPath : N:\DZ-SiM\ClientGroup\Alstom Chorzw\RFQ\2023\266ERS23proc\Dokumentacja
+Message : TranslateWorkPlanes : false
+Message : TranslateHiddenEntities : false
+Message : TranslateAttributes : true
+Message : TranslateAssemblies : true
+Message : Healing : false
+Message : AuthorName : 3D-Tool
+Message : ===========================
+--------------------------------------------------------------------------------
+Source Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start Visualization
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Visualization Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Visualization Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Visualization Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End Visualization
+Visualization Conversion Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+---------------------------Document Conversion Summary--------------------------
+--------------------------------------------------------------------------------
+Message : === Translation Options ===
+Message : TranslateSuppressedEntities : false
+Message : ReadVisibleLayerOnly : true
+Message : TranslateFreePoints : true
+Message : TranslateFreeCurves : true
+Message : Flatten : false
+Message : SetAuthorName : 3D-Tool
+Message : AssemblySearchPath : N:\DZ-SiM\ClientGroup\Alstom Chorzw\RFQ\2023\266ERS23proc\Dokumentacja
+Message : TranslateWorkPlanes : false
+Message : TranslateHiddenEntities : false
+Message : TranslateAttributes : true
+Message : TranslateAssemblies : true
+Message : Healing : false
+Message : AuthorName : 3D-Tool
+Message : ===========================
+--------------------------------------------------------------------------------
+Source Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Start Visualization
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Visualization Source Representation Preprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Visualization Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Visualization Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End Visualization
+Visualization Conversion Result : No Entity to Translate
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+---------------------------Document Conversion Summary--------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Assembly Source Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Assembly Target Representation Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+End Assembly
+Assembly Conversion Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Target Document Postprocessing Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+---------------------------Document Conversion Summary--------------------------
+--------------------------------------------------------------------------------
+Output File "N:\DZ-SiM\ClientGroup\Alstom Chorz*w\RFQ\2023\266ERS23proc\Dokumentacja\GL00001874056_GLD0001874058_A00.stl" is Successfully Written
+--------------------------------------------------------------------------------
+Finish Time : Mon May 15 09:22:04 2023
+
+--------------------------------------------------------------------------------
+Translation Result : Success
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------

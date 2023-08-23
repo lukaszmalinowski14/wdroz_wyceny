@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Model_3dxml xmlns="http://www.3ds.com/xsd/3DXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Header>
+		<SchemaVersion>4.3</SchemaVersion>
+		<Title>GL00001873986 3D XML File</Title>
+		<Author>S_SDC1_vpmadm</Author>
+		<Generator>CATIA V5</Generator>
+		<Created>2023-03-21</Created>
+	</Header>
+	<ProductStructure root="1">
+		<Reference3D xsi:type="Reference3DType" id="1" name=" GL00001873986 --A ( 1 / PLATE FOR BOX / X5CRNI18-10 /  / 1.965 )">
+			<V_version> </V_version>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="5" name="  / PLATE FOR BOX /  /  / ">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>2</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="2" name="GLD0001873987">
+
+			<V_description>PLATE FOR BOX</V_description>
+
+			<V_version>--A</V_version>
+		</Reference3D>
+		<Instance3D xsi:type="Instance3DType" id="3" name="  / PLATE FOR BOX /  /  / ">
+			<IsAggregatedBy>1</IsAggregatedBy>
+			<IsInstanceOf>4</IsInstanceOf>
+			<RelativeMatrix>1 0 0 0 1 0 0 0 1 0 0 0</RelativeMatrix>
+		</Instance3D>
+		<Reference3D xsi:type="Reference3DType" id="4" name="GLD0001873988">
+
+			<V_description>PLATE FOR BOX</V_description>
+
+			<V_version>--A</V_version>
+		</Reference3D>
+		<ReferenceRep xsi:type="ReferenceRepType" id="6" name="GLD0001873987_ReferenceRep" format="UVR" version="1.0" associatedFile="urn:3DXML:EXPORT_3DXML_GLD0001873987___A.3DRep">
+
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="7" name="GLD0001873987_InstanceRep">
+			<IsAggregatedBy>2</IsAggregatedBy>
+			<IsInstanceOf>6</IsInstanceOf>
+		</InstanceRep>
+		<ReferenceRep xsi:type="ReferenceRepType" id="8" name="GLD0001873988_ReferenceRep" format="UVR" version="1.0" associatedFile="urn:3DXML:EXPORT_3DXML_GLD0001873988___A.3DRep">
+
+			<V_discipline>Design</V_discipline>
+			<V_usage>3DShape</V_usage>
+			<V_nature>1</V_nature>
+		</ReferenceRep>
+		<InstanceRep xsi:type="InstanceRepType" id="9" name="GLD0001873988_InstanceRep">
+			<IsAggregatedBy>4</IsAggregatedBy>
+			<IsInstanceOf>8</IsInstanceOf>
+		</InstanceRep>
+	</ProductStructure>
+	<DefaultView>
+		<Viewpoint xsi:type="PerspectiveViewpointType" fieldOfView="15" targetDistance="1.000000119" nearPlaneDistance="1" farPlaneDistance="1000">
+			<Position>0 0 0</Position>
+			<Sight>-0.5773503184 -0.5773503184 -0.5773503184</Sight>
+			<Right>-0.7071067691 0.7071067691 0</Right>
+			<Up>-0.4082483351 -0.4082483351 0.8164966702</Up>
+		</Viewpoint>
+	</DefaultView>
+</Model_3dxml>

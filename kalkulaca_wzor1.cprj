@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="order">
+<head>
+<author authorversion="18.0.0 build 3699" description="TruTops Calculate"/>
+<datetime>2023-06-27 12:01:22</datetime>
+</head>
+<body>
+<Options Measure="metric" BaseCurrency="EUR" CalculationType="PRE">
+<User></User>
+<Currency2>EUR</Currency2>
+<Currency2Active>0</Currency2Active>
+<Currency2Exchange>1.000000</Currency2Exchange>
+<ChargeScrap>0</ChargeScrap>
+<SetupCostsSurcharge>0</SetupCostsSurcharge>
+</Options>
+<OrderData>
+<CustomerData>
+<id>0</id>
+</CustomerData>
+<QuotationNo></QuotationNo>
+<CustomerOrderNo></CustomerOrderNo>
+<ProductionOrderNo></ProductionOrderNo>
+<ArticleID>1</ArticleID>
+<ArticleUuid>{997c21dd-4c0a-4b34-b5c7-2bfae9471d96}</ArticleUuid>
+<Quantity>1.000000</Quantity>
+<Operator>
+<PriceFluctuationAgio>0.000000</PriceFluctuationAgio>
+<FoliationAgio>
+<metric_qty unit="EUR/m²">0.000000</metric_qty>
+<inch_qty unit="EUR/ft²">0.000000</inch_qty>
+</FoliationAgio>
+<ElectricEnergyCosts>
+<metric_qty unit="EUR/kWh">0.150000</metric_qty>
+<inch_qty unit="EUR/kWh">0.150000</inch_qty>
+</ElectricEnergyCosts>
+<CompressedAir>
+<Description>Druckluft</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">0.080000</metric_qty>
+<inch_qty unit="EUR/scf">0.002265</inch_qty>
+</Costs>
+</CompressedAir>
+<Oxygen>
+<Description>O2</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">1.490000</metric_qty>
+<inch_qty unit="EUR/scf">0.042192</inch_qty>
+</Costs>
+</Oxygen>
+<Nitrogen>
+<Description>N2</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">0.350000</metric_qty>
+<inch_qty unit="EUR/scf">0.009911</inch_qty>
+</Costs>
+</Nitrogen>
+<Argon>
+<Description>Argon</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">3.440000</metric_qty>
+<inch_qty unit="EUR/scf">0.097410</inch_qty>
+</Costs>
+</Argon>
+</Operator>
+<SurchargeList/>
+</OrderData>
+<Parts>
+<Part ProcessingTechnology="NONE" ID="1" Uuid="{997c21dd-4c0a-4b34-b5c7-2bfae9471d96}">
+<ArticleNo>Zlecenie</ArticleNo>
+<ArticleNoExt></ArticleNoExt>
+<ArticleDescription></ArticleDescription>
+<Assembly>0</Assembly>
+<Image></Image>
+<SubItems>
+<SubItem>
+<ArticleID>2</ArticleID>
+<ArticleUuid>{a30d9d0b-ab15-4cc0-ab5a-5b5fa186f49f}</ArticleUuid>
+<ArticleNo>0000-0124_TRW_07_Desk</ArticleNo>
+<ArticleDescription></ArticleDescription>
+<RawMaterialID>-1</RawMaterialID>
+<RawMaterialName></RawMaterialName>
+<Quantity>1.000000</Quantity>
+<QuantityType>Stk</QuantityType>
+</SubItem>
+</SubItems>
+<WorkingPlan>
+<WorkingSteps/>
+</WorkingPlan>
+<Technology>
+<RotationMode>0</RotationMode>
+<RotationIncrement unit="°">90.000000</RotationIncrement>
+<MultiPart>0</MultiPart>
+<TwinLine>0</TwinLine>
+<GridFit>0</GridFit>
+<uuid>{796d571d-6da9-4018-bee3-5794f301e6fa}</uuid>
+<Quality>0</Quality>
+<CADFileName></CADFileName>
+<AreaOutside unit="mm²">0.000000</AreaOutside>
+<AreaInside unit="mm²">0.000000</AreaInside>
+<ApproxGeometry/>
+</Technology>
+<Consistent>false</Consistent>
+<SalesPrices>
+<OrderPrice>
+<NetcostsOrder unit="EUR">27.373786</NetcostsOrder>
+<GrosscostsOrder unit="EUR">27.373786</GrosscostsOrder>
+<NetcostsAPiece unit="EUR/Ilość">27.373786</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.373786</GrosscostsAPiece>
+</OrderPrice>
+<ScalePrices>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">27.373786</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.373786</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">27.373786</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.373786</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">5.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">10.230389</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">10.230389</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">10.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">9.656255</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">9.656255</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">50.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">6.511231</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">6.511231</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">100.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">6.088633</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">6.088633</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">500.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">5.865324</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">5.865324</GrosscostsAPiece>
+</ScalePriceEntry>
+</ScalePrices>
+</SalesPrices>
+</Part>
+<Part ProcessingTechnology="CUT" ID="2" Uuid="{a30d9d0b-ab15-4cc0-ab5a-5b5fa186f49f}">
+<ArticleNo>0000-0124_TRW_07_Desk</ArticleNo>
+<ArticleNoExt></ArticleNoExt>
+<ArticleDescription></ArticleDescription>
+<Assembly>0</Assembly>
+<Image></Image>
+<RawMaterialID>353</RawMaterialID>
+<RawMaterialName>St37-20</RawMaterialName>
+<Costs>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</Costs>
+<Material>
+<MaterialId>353</MaterialId>
+<MaterialName>St37-20</MaterialName>
+<MaterialUuid>{5ca9f5f6-356a-46f0-b2a4-17205758e7e3}</MaterialUuid>
+<MaterialDescription>s=2,0 mm</MaterialDescription>
+<MaterialNote></MaterialNote>
+<CorrectionFactorSpecificWeight>1.000000</CorrectionFactorSpecificWeight>
+<MaterialThickness unit="mm">2.000000</MaterialThickness>
+<Vaporize>0</Vaporize>
+<Foil>20</Foil>
+<Surface>10</Surface>
+<ProtectSurface>0</ProtectSurface>
+<MaterialCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</MaterialCosts>
+<ComputeMaterialCosts>1</ComputeMaterialCosts>
+<MaterialOrderCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</MaterialOrderCosts>
+<BasicMaterial>
+<BasicMaterialName>1.0038</BasicMaterialName>
+<BasicMaterialId>20001</BasicMaterialId>
+<BasicMaterialUuid>{d0ab6e01-120b-4dcb-b1b9-7cb478b6ed6f}</BasicMaterialUuid>
+<BasicMaterialDescription>St37; Fe360; 40 B;ST;AE235; RSt37-2; BSt 3 sp 2; NS 12 124; St360; Fe; DC01; DC03; Fe P0X; C; CR4; AP00; 1142; A366</BasicMaterialDescription>
+<BasicMaterialNote></BasicMaterialNote>
+<BasicMaterialIsSystem>20001</BasicMaterialIsSystem>
+<TensileStrength unit="N/mm²">450.000000</TensileStrength>
+<SpecificWeight unit="kg/dm³">7.850000</SpecificWeight>
+<BasicMaterialCosts>
+<metric_qty unit="EUR/kg">0.000000</metric_qty>
+<inch_qty unit="EUR/lb">0.000000</inch_qty>
+</BasicMaterialCosts>
+<BasicMaterialGroup>
+<BasicMaterialGroup>Steel</BasicMaterialGroup>
+<BasicMaterialGroupUuid>{795ec37e-bac4-4262-b806-da9b5c176c82}</BasicMaterialGroupUuid>
+<BasicMaterialGroupNote>St37; Fe360; 40 B;ST;AE235; RSt37-2; BSt 3 sp 2; NS 12 124; St360; Fe; DC01; DC03; Fe P0X; C; CR4; AP00; 1142; A366</BasicMaterialGroupNote>
+<BasicMaterialGroupCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</BasicMaterialGroupCosts>
+<ScrapValue>
+<metric_qty unit="EUR/kg">0.000000</metric_qty>
+<inch_qty unit="EUR/lb">0.000000</inch_qty>
+</ScrapValue>
+</BasicMaterialGroup>
+</BasicMaterial>
+<TechnoSettings/>
+</Material>
+<SubItems/>
+<WorkingPlan>
+<WorkingSteps>
+<WorkingStep>
+<WorkStepName>TruLaser 3030 (L3030)_MET</WorkStepName>
+<WorkPlace>TruLaser 3030 (L3030)_MET</WorkPlace>
+<WorkPlaceData>
+<Name>TruLaser 3030 (L3030)_MET</Name>
+<RequiredSpace unit="m²">0.000000</RequiredSpace>
+<InitialCost unit="EUR">0.000000</InitialCost>
+<DepreciationPeriod>0</DepreciationPeriod>
+<NumberOfShifts>0</NumberOfShifts>
+<MaintenanceCosts>0.000000</MaintenanceCosts>
+<AreaCosts>
+<metric_qty unit="EUR/m²">0.000000</metric_qty>
+<inch_qty unit="EUR/ft²">0.000000</inch_qty>
+</AreaCosts>
+<CapitalReturn>0.000000</CapitalReturn>
+<ShiftHoursPerYear>0</ShiftHoursPerYear>
+<MachineHourCosts>
+<Description>TruLaser 3030 (L3030)_MET</Description>
+<Value>
+<metric_qty unit="EUR/h">0.010000</metric_qty>
+<inch_qty unit="EUR/h">0.010000</inch_qty>
+</Value>
+<primaerStdSatz>1</primaerStdSatz>
+</MachineHourCosts>
+<HourlyRateDefined>1</HourlyRateDefined>
+<HourlyRate>
+<Description>Operator</Description>
+<Value>
+<metric_qty unit="EUR/h">50.000000</metric_qty>
+<inch_qty unit="EUR/h">50.000000</inch_qty>
+</Value>
+<DefDescription>Bediener</DefDescription>
+<Comment></Comment>
+</HourlyRate>
+<OperationFactor>50</OperationFactor>
+<OperationType>10</OperationType>
+<ShowOldProductName>0</ShowOldProductName>
+<MachineClass>0</MachineClass>
+<OverheadRate>
+<metric_qty unit="EUR/h">0.000000</metric_qty>
+<inch_qty unit="EUR/h">0.000000</inch_qty>
+</OverheadRate>
+<OptionPCS>0</OptionPCS>
+<OptionSprintLas>0</OptionSprintLas>
+<OptionPerformancePaket>0</OptionPerformancePaket>
+<LoadType>2</LoadType>
+<UnloadType>1</UnloadType>
+<SheetSkeletonUnloadType>1</SheetSkeletonUnloadType>
+<SheetSkeletonUnloadTime>00:00:00.000</SheetSkeletonUnloadTime>
+<DefaultLoadTime>00:00:00.000</DefaultLoadTime>
+<DefaultUnloadTime>00:00:00.000</DefaultUnloadTime>
+<DefaultSheetSkeletonUnloadTime>00:00:00.000</DefaultSheetSkeletonUnloadTime>
+<LoadTime>00:01:30.000</LoadTime>
+<UnloadTime>00:00:00.000</UnloadTime>
+<PaletteChangeoverTime>00:00:00.000</PaletteChangeoverTime>
+<ControlVersion>00999.00999.00999.00999</ControlVersion>
+<MachineTechno>
+<Id>2010</Id>
+<Name>TruLaser 3030 (L3030)</Name>
+<NameOld>L3030S</NameOld>
+<MachineType>1</MachineType>
+<MachineGroup>TC8</MachineGroup>
+<LaserType>0</LaserType>
+<Control>Sin 840D</Control>
+<MaxSheetDim>
+<val0>3030.000000</val0>
+<val1>1530.000000</val1>
+<val2>20.000000</val2>
+</MaxSheetDim>
+<MinSheetDim>
+<val0>0.000000</val0>
+<val1>0.000000</val1>
+<val2>0.000000</val2>
+</MinSheetDim>
+<MaxSheetWeight unit="kg">710.000000</MaxSheetWeight>
+<OperationArea>
+<val0>3030.000000</val0>
+<val1>1530.000000</val1>
+<val2>115.000000</val2>
+</OperationArea>
+<OvertravelP>
+<val0>80.000000</val0>
+<val1>45.000000</val1>
+<val2>0.000000</val2>
+</OvertravelP>
+<OvertravelM>
+<val0>-15.000000</val0>
+<val1>-19.000000</val1>
+<val2>-1.000000</val2>
+</OvertravelM>
+<DoubleHeadMinDistX unit="mm">-1.000000</DoubleHeadMinDistX>
+<DoubleHeadMinDistY unit="mm">-1.000000</DoubleHeadMinDistY>
+<ControlVersionSignificant>1</ControlVersionSignificant>
+<Category>3</Category>
+<AreaLaser>
+<MaxSpeedMetric>
+<val0>1.000000</val0>
+<val1>1.000000</val1>
+<val2>0.666667</val2>
+</MaxSpeedMetric>
+<AccelerationMetric>
+<val0>9.000000</val0>
+<val1>9.000000</val1>
+<val2>10.000000</val2>
+</AccelerationMetric>
+<JerkMetric>
+<val0>1000.000000</val0>
+<val1>1000.000000</val1>
+<val2>1000.000000</val2>
+</JerkMetric>
+<SptintLasOption>2</SptintLasOption>
+<PcsOption>1</PcsOption>
+<PaletteChangeoverTime>00:00:30.000</PaletteChangeoverTime>
+<HeadChangeoverTime>00:00:00.000</HeadChangeoverTime>
+<AvgLaserG1>440.000000</AvgLaserG1>
+<AvgLaserG100>4758.000000</AvgLaserG100>
+<OptionPaletteChanger>1</OptionPaletteChanger>
+<m_performancePaket>0</m_performancePaket>
+<WasteManagement/>
+</AreaLaser>
+</MachineTechno>
+<Laser>
+<Name>TruFlow 4000</Name>
+<MaxPower unit="W">4000.000000</MaxPower>
+<EnergyGradient>0.336700</EnergyGradient>
+<CValue>32.000000</CValue>
+<EnergyGradient2>0.000000</EnergyGradient2>
+<CValue2>0.000000</CValue2>
+<EnergyStandby unit="kW">31.000000</EnergyStandby>
+</Laser>
+<LaserMachine>
+<Power100Percent unit="kW">65.670000</Power100Percent>
+<Power1Percent unit="kW">32.336700</Power1Percent>
+<PowerRegularStandby unit="kW">31.000000</PowerRegularStandby>
+<PowerOptimalStandby unit="kW">31.000000</PowerOptimalStandby>
+</LaserMachine>
+<WearCostsPunch>
+<metric_qty unit="EUR/h">0.000000</metric_qty>
+<inch_qty unit="EUR/h">0.000000</inch_qty>
+</WearCostsPunch>
+<WearCostsLaser>
+<metric_qty unit="EUR/h">1.820000</metric_qty>
+<inch_qty unit="EUR/h">1.820000</inch_qty>
+</WearCostsLaser>
+</WorkPlaceData>
+<Enabled>1</Enabled>
+<TargetProcessingTime>00:01:35.697</TargetProcessingTime>
+<TargetProcessingTimeData>
+<ProductionTime>
+<OperatingTime>
+<LaserTime>00:00:24.953</LaserTime>
+</OperatingTime>
+<PositioningTime>00:00:03.538</PositioningTime>
+</ProductionTime>
+<AuxiliaryProcessTime>
+<SetupTime>00:05:00.000</SetupTime>
+<LoadingTime>00:01:07.206</LoadingTime>
+</AuxiliaryProcessTime>
+</TargetProcessingTimeData>
+<CalculateTargetProcessingTime>1</CalculateTargetProcessingTime>
+<Base>0</Base>
+<TargetSetupTimeSetByFabFlag>0</TargetSetupTimeSetByFabFlag>
+<TargetSetupTime>00:05:00.000</TargetSetupTime>
+<WorkStepType>10</WorkStepType>
+<ActivityFactor>50</ActivityFactor>
+<UseConstValue>0</UseConstValue>
+<ConstantValue unit="EUR">0.000000</ConstantValue>
+<MachinePotOverride>80</MachinePotOverride>
+<CorrMainTime>0</CorrMainTime>
+<WorkStepNo>10</WorkStepNo>
+<WorkStepTypeName>Obróbka NC arkusza</WorkStepTypeName>
+<CalculationModel>0</CalculationModel>
+<OptionOperatorEnabled>0</OptionOperatorEnabled>
+<NumberOfOperators>1</NumberOfOperators>
+<WeightEnabled>0</WeightEnabled>
+<WeightQuantity unit="kg">0.000000</WeightQuantity>
+<LengthEnabled>0</LengthEnabled>
+<LengthQuantity unit="m">0.000000</LengthQuantity>
+<Resources>
+<Resource>
+<ArticleID>279</ArticleID>
+<ArticleNo>ST0M0200----3000x1500</ArticleNo>
+<SheetCosts unit="EUR">0.000000</SheetCosts>
+<ComputeSheetCosts>1</ComputeSheetCosts>
+<RawMaterialID>353</RawMaterialID>
+<RawMaterialName>St37-20</RawMaterialName>
+<Length unit="mm">3000.000000</Length>
+<Width unit="mm">1500.000000</Width>
+<Quantity unit="Ilość">0.134667</Quantity>
+<QuantityType>Stk</QuantityType>
+<Description>ST0M0200----3000x1500 St37-20-3000x1500 </Description>
+<Note></Note>
+<DirectionOfRolling>Undefined</DirectionOfRolling>
+<GrindingDirection>Undefined</GrindingDirection>
+</Resource>
+</Resources>
+<WorkStepCosts>
+<NetcostsAPiece unit="EUR">27.373786</NetcostsAPiece>
+<Netcosts unit="EUR">27.373786</Netcosts>
+</WorkStepCosts>
+</WorkingStep>
+</WorkingSteps>
+</WorkingPlan>
+<Technology>
+<RotationMode>0</RotationMode>
+<RotationIncrement unit="°">90.000000</RotationIncrement>
+<MultiPart>0</MultiPart>
+<TwinLine>0</TwinLine>
+<GridFit>0</GridFit>
+<AccountBaseFlag>1</AccountBaseFlag>
+<AccountSheetMode>1</AccountSheetMode>
+<AccountUncompleteSheetSurcharge>0</AccountUncompleteSheetSurcharge>
+<NestDirectionFlag>X</NestDirectionFlag>
+<FitPartInPart>0</FitPartInPart>
+<DischargeWithOpenFlapFlag>0</DischargeWithOpenFlapFlag>
+<NestMode>2</NestMode>
+<MultiPartNest>0</MultiPartNest>
+<Base unit="mm">10.000000</Base>
+<RollingDirection>X</RollingDirection>
+<ClampDeadArea unit="mm">0.000000</ClampDeadArea>
+<MeanderFlag>0</MeanderFlag>
+<NestResolution>0</NestResolution>
+<TwinLineDistance unit="mm">0.000000</TwinLineDistance>
+<TwoHeadProcessing>0</TwoHeadProcessing>
+<NestStrategy>0</NestStrategy>
+<uuid>{6246aebc-d7cf-4146-a76c-d8a0d9941092}</uuid>
+<Quality>0</Quality>
+<CADFileName>C:/Users/lukasz.malinowski/AppData/Local/Temp/TruTops Calculate-15956/0000-0124_TRW_07_Desk.geo</CADFileName>
+<PartInformation>
+<SizeX unit="mm">379.952000</SizeX>
+<SizeY unit="mm">397.999000</SizeY>
+<PartWeight unit="kg">0.984016</PartWeight>
+<PartArea unit="mm²">62676.148693</PartArea>
+<RectangleArea unit="mm²">151220.516048</RectangleArea>
+<RectangleWeight unit="kg">2.374162</RectangleWeight>
+<CuttingLength unit="mm">1511.524281</CuttingLength>
+<BendingLines>0</BendingLines>
+<BendingLength unit="mm">0.000000</BendingLength>
+</PartInformation>
+<AreaOutside unit="mm²">62676.148693</AreaOutside>
+<AreaInside unit="mm²">0.000000</AreaInside>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">371.923000</parameter_1>
+<parameter_2 unit="mm">88.204000</parameter_2>
+<parameter_3 unit="mm">338.807000</parameter_3>
+<parameter_4 unit="mm">76.876000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">338.807000</parameter_1>
+<parameter_2 unit="mm">76.876000</parameter_2>
+<parameter_3 unit="mm">312.094000</parameter_3>
+<parameter_4 unit="mm">154.964000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">312.094000</parameter_1>
+<parameter_2 unit="mm">154.964000</parameter_2>
+<parameter_3 unit="mm">308.662000</parameter_3>
+<parameter_4 unit="mm">164.996000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">308.662000</parameter_1>
+<parameter_2 unit="mm">164.996000</parameter_2>
+<parameter_3 unit="mm">264.306000</parameter_3>
+<parameter_4 unit="mm">294.655000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">302.153180</parameter_1>
+<parameter_2 unit="mm">307.601474</parameter_2>
+<parameter_3 unit="mm">264.306000</parameter_3>
+<parameter_4 unit="mm">294.655000</parameter_4>
+<parameter_5 unit="rad">-1.369849</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">281.913000</parameter_1>
+<parameter_2 unit="mm">342.103000</parameter_2>
+<parameter_3 unit="mm">305.560000</parameter_3>
+<parameter_4 unit="mm">355.976000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">305.560000</parameter_1>
+<parameter_2 unit="mm">355.976000</parameter_2>
+<parameter_3 unit="mm">305.459000</parameter_3>
+<parameter_4 unit="mm">367.999000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">305.459000</parameter_1>
+<parameter_2 unit="mm">367.999000</parameter_2>
+<parameter_3 unit="mm">340.459000</parameter_3>
+<parameter_4 unit="mm">367.999000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">340.459000</parameter_1>
+<parameter_2 unit="mm">367.999000</parameter_2>
+<parameter_3 unit="mm">340.206000</parameter_3>
+<parameter_4 unit="mm">397.999000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">340.206000</parameter_1>
+<parameter_2 unit="mm">397.999000</parameter_2>
+<parameter_3 unit="mm">0.000000</parameter_3>
+<parameter_4 unit="mm">397.999000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">0.000000</parameter_1>
+<parameter_2 unit="mm">397.999000</parameter_2>
+<parameter_3 unit="mm">0.253000</parameter_3>
+<parameter_4 unit="mm">367.999000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">0.253000</parameter_1>
+<parameter_2 unit="mm">367.999000</parameter_2>
+<parameter_3 unit="mm">35.253000</parameter_3>
+<parameter_4 unit="mm">367.999000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">35.253000</parameter_1>
+<parameter_2 unit="mm">367.999000</parameter_2>
+<parameter_3 unit="mm">35.354000</parameter_3>
+<parameter_4 unit="mm">355.976000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">35.354000</parameter_1>
+<parameter_2 unit="mm">355.976000</parameter_2>
+<parameter_3 unit="mm">103.735000</parameter_3>
+<parameter_4 unit="mm">316.254000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">73.094000</parameter_1>
+<parameter_2 unit="mm">263.507000</parameter_2>
+<parameter_3 unit="mm">103.735000</parameter_3>
+<parameter_4 unit="mm">316.254000</parameter_4>
+<parameter_5 unit="rad">-0.714916</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">130.811000</parameter_1>
+<parameter_2 unit="mm">283.252000</parameter_2>
+<parameter_3 unit="mm">185.660000</parameter_3>
+<parameter_4 unit="mm">122.918000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">185.660000</parameter_1>
+<parameter_2 unit="mm">122.918000</parameter_2>
+<parameter_3 unit="mm">215.805000</parameter_3>
+<parameter_4 unit="mm">34.797000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">215.805000</parameter_1>
+<parameter_2 unit="mm">34.797000</parameter_2>
+<parameter_3 unit="mm">182.690000</parameter_3>
+<parameter_4 unit="mm">23.469000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">182.690000</parameter_1>
+<parameter_2 unit="mm">23.469000</parameter_2>
+<parameter_3 unit="mm">190.718000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">190.718000</parameter_1>
+<parameter_2 unit="mm">0.000000</parameter_2>
+<parameter_3 unit="mm">379.952000</parameter_3>
+<parameter_4 unit="mm">64.736000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">379.952000</parameter_1>
+<parameter_2 unit="mm">64.736000</parameter_2>
+<parameter_3 unit="mm">371.923000</parameter_3>
+<parameter_4 unit="mm">88.204000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ApproxGeometry>
+<outside>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>0</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>19</contour_type>
+<description>Dowolny kontur 1 511,5x10,6x380x398x14x1</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">62676.100000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">1511.520000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">10.603200</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">379.952000</val>
+</parameter_3>
+<parameter_4>
+<val unit="mm">397.999000</val>
+</parameter_4>
+<parameter_5>
+<val unit="Ilość">14.000000</val>
+</parameter_5>
+<parameter_6>
+<val unit="">1.000000</val>
+</parameter_6>
+<parameter_7>
+<val unit="">0.000000</val>
+</parameter_7>
+</contour>
+</outside>
+<inside/>
+</ApproxGeometry>
+</Technology>
+<Consistent>true</Consistent>
+<SalesPrices>
+<OrderPrice>
+<NetcostsOrder unit="EUR">27.373786</NetcostsOrder>
+<GrosscostsOrder unit="EUR">27.373786</GrosscostsOrder>
+<NetcostsAPiece unit="EUR/Ilość">27.373786</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.373786</GrosscostsAPiece>
+</OrderPrice>
+<ScalePrices>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">27.373786</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.373786</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">27.373786</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.373786</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">5.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">10.230389</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">10.230389</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">10.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">9.656255</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">9.656255</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">50.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">6.511231</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">6.511231</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">100.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">6.088633</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">6.088633</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">500.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">5.865324</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">5.865324</GrosscostsAPiece>
+</ScalePriceEntry>
+</ScalePrices>
+</SalesPrices>
+</Part>
+</Parts>
+<nesting>
+<allocation-list part-group-id="TruLaser 3030 (L3030)_MET / St37-20">
+<allocation sheet-id="ST0M0200----3000x1500" part="{6246aebc-d7cf-4146-a76c-d8a0d9941092}">
+<alloctype>0</alloctype>
+<doublehead>0</doublehead>
+<numsheets>0</numsheets>
+<id>{a45f9a57-c7ba-4a2f-b975-52dcaaa8ac2d}</id>
+<pos-list>
+<pos meta="0;0;0" data="14.3733;1092;0;14.3733;1092;394.325;1490"/>
+<pos meta="0;0;0" data="368.373;1092;0;368.373;1092;748.325;1490"/>
+<pos meta="0;0;0" data="722.373;1092;0;722.373;1092;1102.33;1490"/>
+<pos meta="0;0;0" data="1076.37;1092;0;1076.37;1092;1456.33;1490"/>
+<pos meta="0;0;0" data="1430.37;1092;0;1430.37;1092;1810.33;1490"/>
+<pos meta="0;0;0" data="1784.37;1092;0;1784.37;1092;2164.33;1490"/>
+<pos meta="0;0;0" data="2138.37;1092;0;2138.37;1092;2518.33;1490"/>
+<pos meta="0;0;0" data="2492.37;1092;0;2492.37;1092;2872.33;1490"/>
+<pos meta="0;2;0" data="14.3733;684.001;0;14.3733;684.001;394.325;1082"/>
+<pos meta="0;2;0" data="368.373;684.001;0;368.373;684.001;748.325;1082"/>
+<pos meta="0;2;0" data="722.373;684.001;0;722.373;684.001;1102.33;1082"/>
+<pos meta="0;2;0" data="1076.37;684.001;0;1076.37;684.001;1456.33;1082"/>
+<pos meta="0;2;0" data="1430.37;684.001;0;1430.37;684.001;1810.33;1082"/>
+<pos meta="0;2;0" data="1784.37;684.001;0;1784.37;684.001;2164.33;1082"/>
+<pos meta="0;2;0" data="2138.37;684.001;0;2138.37;684.001;2518.33;1082"/>
+<pos meta="0;2;0" data="2492.37;684.001;0;2492.37;684.001;2872.33;1082"/>
+<pos meta="0;4;0" data="14.3733;276.001;0;14.3733;276.001;394.325;674"/>
+<pos meta="0;4;0" data="368.373;276.001;0;368.373;276.001;748.325;674"/>
+<pos meta="0;4;0" data="722.373;276.001;0;722.373;276.001;1102.33;674"/>
+<pos meta="0;4;0" data="1076.37;276.001;0;1076.37;276.001;1456.33;674"/>
+<pos meta="0;4;0" data="1430.37;276.001;0;1430.37;276.001;1810.33;674"/>
+<pos meta="0;4;0" data="1784.37;276.001;0;1784.37;276.001;2164.33;674"/>
+<pos meta="0;4;0" data="2138.37;276.001;0;2138.37;276.001;2518.33;674"/>
+<pos meta="0;4;0" data="2492.37;276.001;0;2492.37;276.001;2872.33;674"/>
+</pos-list>
+</allocation>
+<allocation sheet-id="ST0M0200----3000x1500" part="{6246aebc-d7cf-4146-a76c-d8a0d9941092}">
+<alloctype>1</alloctype>
+<doublehead>0</doublehead>
+<numsheets>1</numsheets>
+<id>{ab35839b-12ff-424c-995b-8c1192763042}</id>
+<pos-list>
+<pos meta="0;0;0" data="14.3733;1092;0;14.3733;1092;394.325;1490"/>
+</pos-list>
+</allocation>
+</allocation-list>
+</nesting>
+</body>
+</document>

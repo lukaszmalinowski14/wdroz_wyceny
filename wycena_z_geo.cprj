@@ -1,0 +1,3760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="order">
+<head>
+<author description="TruTops Calculate" authorversion="18.0.0 build 3699"/>
+<datetime>2023-06-20 14:09:20</datetime>
+</head>
+<body>
+<Options CalculationType="PRE" Measure="metric" BaseCurrency="EUR">
+<User></User>
+<Currency2>EUR</Currency2>
+<Currency2Active>0</Currency2Active>
+<Currency2Exchange>1.000000</Currency2Exchange>
+<ChargeScrap>0</ChargeScrap>
+<SetupCostsSurcharge>0</SetupCostsSurcharge>
+</Options>
+<OrderData>
+<CustomerData>
+<id>0</id>
+</CustomerData>
+<QuotationNo></QuotationNo>
+<CustomerOrderNo></CustomerOrderNo>
+<ProductionOrderNo></ProductionOrderNo>
+<ArticleID>1</ArticleID>
+<ArticleUuid>{458d1a1b-c7a9-4aed-91b8-bd0a921452a9}</ArticleUuid>
+<Quantity>1.000000</Quantity>
+<Operator>
+<PriceFluctuationAgio>0.000000</PriceFluctuationAgio>
+<FoliationAgio>
+<metric_qty unit="EUR/m²">0.000000</metric_qty>
+<inch_qty unit="EUR/ft²">0.000000</inch_qty>
+</FoliationAgio>
+<ElectricEnergyCosts>
+<metric_qty unit="EUR/kWh">0.150000</metric_qty>
+<inch_qty unit="EUR/kWh">0.150000</inch_qty>
+</ElectricEnergyCosts>
+<CompressedAir>
+<Description>Druckluft</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">0.080000</metric_qty>
+<inch_qty unit="EUR/scf">0.002265</inch_qty>
+</Costs>
+</CompressedAir>
+<Oxygen>
+<Description>O2</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">1.490000</metric_qty>
+<inch_qty unit="EUR/scf">0.042192</inch_qty>
+</Costs>
+</Oxygen>
+<Nitrogen>
+<Description>N2</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">0.350000</metric_qty>
+<inch_qty unit="EUR/scf">0.009911</inch_qty>
+</Costs>
+</Nitrogen>
+<Argon>
+<Description>Argon</Description>
+<Costs>
+<metric_qty unit="EUR/Nm³">3.440000</metric_qty>
+<inch_qty unit="EUR/scf">0.097410</inch_qty>
+</Costs>
+</Argon>
+</Operator>
+<SurchargeList/>
+</OrderData>
+<Parts>
+<Part ProcessingTechnology="NONE" Uuid="{458d1a1b-c7a9-4aed-91b8-bd0a921452a9}" ID="1">
+<ArticleNo>Zlecenie</ArticleNo>
+<ArticleNoExt></ArticleNoExt>
+<ArticleDescription></ArticleDescription>
+<Assembly>0</Assembly>
+<Image></Image>
+<SubItems>
+<SubItem>
+<ArticleID>2</ArticleID>
+<ArticleUuid>{68781a98-9567-4014-9f05-49ebde4bc241}</ArticleUuid>
+<ArticleNo>AB09002118565_A</ArticleNo>
+<ArticleDescription></ArticleDescription>
+<RawMaterialID>-1</RawMaterialID>
+<RawMaterialName></RawMaterialName>
+<Quantity>1.000000</Quantity>
+<QuantityType>Stk</QuantityType>
+</SubItem>
+<SubItem>
+<ArticleID>3</ArticleID>
+<ArticleUuid>{8acbbd2e-4c69-4846-8c90-a5afa642342f}</ArticleUuid>
+<ArticleNo>GL00001319736_GLD0_01</ArticleNo>
+<ArticleDescription></ArticleDescription>
+<RawMaterialID>-1</RawMaterialID>
+<RawMaterialName></RawMaterialName>
+<Quantity>1.000000</Quantity>
+<QuantityType>Stk</QuantityType>
+</SubItem>
+</SubItems>
+<WorkingPlan>
+<WorkingSteps/>
+</WorkingPlan>
+<Technology>
+<RotationMode>0</RotationMode>
+<RotationIncrement unit="°">90.000000</RotationIncrement>
+<MultiPart>0</MultiPart>
+<TwinLine>0</TwinLine>
+<GridFit>0</GridFit>
+<uuid>{cc5ae7f1-1728-4a40-b357-c6b1c3b63b36}</uuid>
+<Quality>0</Quality>
+<CADFileName></CADFileName>
+<AreaOutside unit="mm²">0.000000</AreaOutside>
+<AreaInside unit="mm²">0.000000</AreaInside>
+<ApproxGeometry/>
+</Technology>
+<Consistent>false</Consistent>
+<SalesPrices>
+<OrderPrice>
+<NetcostsOrder unit="EUR">122.860137</NetcostsOrder>
+<GrosscostsOrder unit="EUR">122.860137</GrosscostsOrder>
+<NetcostsAPiece unit="EUR/Ilość">122.860137</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">122.860137</GrosscostsAPiece>
+</OrderPrice>
+<ScalePrices>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">122.860137</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">122.860137</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">122.860137</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">122.860137</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">5.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">92.499244</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">92.499244</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">10.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">91.000535</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">91.000535</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">50.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">86.176374</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">86.176374</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">100.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">85.802507</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">85.802507</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">500.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">85.320075</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">85.320075</GrosscostsAPiece>
+</ScalePriceEntry>
+</ScalePrices>
+</SalesPrices>
+</Part>
+<Part ProcessingTechnology="CUT" Uuid="{68781a98-9567-4014-9f05-49ebde4bc241}" ID="2">
+<ArticleNo>AB09002118565_A</ArticleNo>
+<ArticleNoExt></ArticleNoExt>
+<ArticleDescription></ArticleDescription>
+<Assembly>0</Assembly>
+<Image></Image>
+<RawMaterialID>353</RawMaterialID>
+<RawMaterialName>St37-20</RawMaterialName>
+<Costs>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</Costs>
+<Material>
+<MaterialId>353</MaterialId>
+<MaterialName>St37-20</MaterialName>
+<MaterialUuid>{21ea32cb-b2b4-4098-8415-724667ef4862}</MaterialUuid>
+<MaterialDescription>s=2,0 mm</MaterialDescription>
+<MaterialNote></MaterialNote>
+<CorrectionFactorSpecificWeight>1.000000</CorrectionFactorSpecificWeight>
+<MaterialThickness unit="mm">2.000000</MaterialThickness>
+<Vaporize>0</Vaporize>
+<Foil>20</Foil>
+<Surface>10</Surface>
+<ProtectSurface>0</ProtectSurface>
+<MaterialCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</MaterialCosts>
+<ComputeMaterialCosts>1</ComputeMaterialCosts>
+<MaterialOrderCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</MaterialOrderCosts>
+<BasicMaterial>
+<BasicMaterialName>1.0038</BasicMaterialName>
+<BasicMaterialId>20001</BasicMaterialId>
+<BasicMaterialUuid>{7bab1f67-0835-4f3c-ad67-5e04dbf96146}</BasicMaterialUuid>
+<BasicMaterialDescription>St37; Fe360; 40 B;ST;AE235; RSt37-2; BSt 3 sp 2; NS 12 124; St360; Fe; DC01; DC03; Fe P0X; C; CR4; AP00; 1142; A366</BasicMaterialDescription>
+<BasicMaterialNote></BasicMaterialNote>
+<BasicMaterialIsSystem>20001</BasicMaterialIsSystem>
+<TensileStrength unit="N/mm²">450.000000</TensileStrength>
+<SpecificWeight unit="kg/dm³">7.850000</SpecificWeight>
+<BasicMaterialCosts>
+<metric_qty unit="EUR/kg">0.000000</metric_qty>
+<inch_qty unit="EUR/lb">0.000000</inch_qty>
+</BasicMaterialCosts>
+<BasicMaterialGroup>
+<BasicMaterialGroup>Steel</BasicMaterialGroup>
+<BasicMaterialGroupUuid>{cdb44dc0-7926-4b26-baf9-5c23d5b73802}</BasicMaterialGroupUuid>
+<BasicMaterialGroupNote>St37; Fe360; 40 B;ST;AE235; RSt37-2; BSt 3 sp 2; NS 12 124; St360; Fe; DC01; DC03; Fe P0X; C; CR4; AP00; 1142; A366</BasicMaterialGroupNote>
+<BasicMaterialGroupCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</BasicMaterialGroupCosts>
+<ScrapValue>
+<metric_qty unit="EUR/kg">0.000000</metric_qty>
+<inch_qty unit="EUR/lb">0.000000</inch_qty>
+</ScrapValue>
+</BasicMaterialGroup>
+</BasicMaterial>
+<TechnoSettings/>
+</Material>
+<SubItems/>
+<WorkingPlan>
+<WorkingSteps>
+<WorkingStep>
+<WorkStepName>TruLaser 3030 (L3030)_MET</WorkStepName>
+<WorkPlace>TruLaser 3030 (L3030)</WorkPlace>
+<WorkPlaceData>
+<Name>TruLaser 3030 (L3030)</Name>
+<RequiredSpace unit="m²">0.000000</RequiredSpace>
+<InitialCost unit="EUR">0.000000</InitialCost>
+<DepreciationPeriod>0</DepreciationPeriod>
+<NumberOfShifts>0</NumberOfShifts>
+<MaintenanceCosts>0.000000</MaintenanceCosts>
+<AreaCosts>
+<metric_qty unit="EUR/m²">0.000000</metric_qty>
+<inch_qty unit="EUR/ft²">0.000000</inch_qty>
+</AreaCosts>
+<CapitalReturn>0.000000</CapitalReturn>
+<ShiftHoursPerYear>0</ShiftHoursPerYear>
+<MachineHourCosts>
+<Description>TruLaser 3030 (L3030)</Description>
+<Value>
+<metric_qty unit="EUR/h">60.000000</metric_qty>
+<inch_qty unit="EUR/h">60.000000</inch_qty>
+</Value>
+<primaerStdSatz>1</primaerStdSatz>
+</MachineHourCosts>
+<HourlyRateDefined>1</HourlyRateDefined>
+<HourlyRate>
+<Description>Operator</Description>
+<Value>
+<metric_qty unit="EUR/h">50.000000</metric_qty>
+<inch_qty unit="EUR/h">50.000000</inch_qty>
+</Value>
+<DefDescription>Bediener</DefDescription>
+<Comment></Comment>
+</HourlyRate>
+<OperationFactor>50</OperationFactor>
+<OperationType>10</OperationType>
+<ShowOldProductName>0</ShowOldProductName>
+<MachineClass>0</MachineClass>
+<OverheadRate>
+<metric_qty unit="EUR/h">20.000000</metric_qty>
+<inch_qty unit="EUR/h">20.000000</inch_qty>
+</OverheadRate>
+<OptionPCS>1</OptionPCS>
+<OptionSprintLas>1</OptionSprintLas>
+<OptionPerformancePaket>0</OptionPerformancePaket>
+<LoadType>2</LoadType>
+<UnloadType>1</UnloadType>
+<SheetSkeletonUnloadType>1</SheetSkeletonUnloadType>
+<SheetSkeletonUnloadTime>00:00:00.000</SheetSkeletonUnloadTime>
+<DefaultLoadTime>00:00:00.000</DefaultLoadTime>
+<DefaultUnloadTime>00:00:00.000</DefaultUnloadTime>
+<DefaultSheetSkeletonUnloadTime>00:00:00.000</DefaultSheetSkeletonUnloadTime>
+<LoadTime>00:01:30.000</LoadTime>
+<UnloadTime>00:00:00.000</UnloadTime>
+<PaletteChangeoverTime>00:00:00.000</PaletteChangeoverTime>
+<ControlVersion>00999.00999.00999.00999</ControlVersion>
+<MachineTechno>
+<Id>2010</Id>
+<Name>TruLaser 3030 (L3030)</Name>
+<NameOld>L3030S</NameOld>
+<MachineType>1</MachineType>
+<MachineGroup>TC8</MachineGroup>
+<LaserType>0</LaserType>
+<Control>Sin 840D</Control>
+<MaxSheetDim>
+<val0>3030.000000</val0>
+<val1>1530.000000</val1>
+<val2>20.000000</val2>
+</MaxSheetDim>
+<MinSheetDim>
+<val0>0.000000</val0>
+<val1>0.000000</val1>
+<val2>0.000000</val2>
+</MinSheetDim>
+<MaxSheetWeight unit="kg">710.000000</MaxSheetWeight>
+<OperationArea>
+<val0>3030.000000</val0>
+<val1>1530.000000</val1>
+<val2>115.000000</val2>
+</OperationArea>
+<OvertravelP>
+<val0>80.000000</val0>
+<val1>45.000000</val1>
+<val2>0.000000</val2>
+</OvertravelP>
+<OvertravelM>
+<val0>-15.000000</val0>
+<val1>-19.000000</val1>
+<val2>-1.000000</val2>
+</OvertravelM>
+<DoubleHeadMinDistX unit="mm">-1.000000</DoubleHeadMinDistX>
+<DoubleHeadMinDistY unit="mm">-1.000000</DoubleHeadMinDistY>
+<ControlVersionSignificant>1</ControlVersionSignificant>
+<Category>3</Category>
+<AreaLaser>
+<MaxSpeedMetric>
+<val0>1.000000</val0>
+<val1>1.000000</val1>
+<val2>0.666667</val2>
+</MaxSpeedMetric>
+<AccelerationMetric>
+<val0>9.000000</val0>
+<val1>9.000000</val1>
+<val2>10.000000</val2>
+</AccelerationMetric>
+<JerkMetric>
+<val0>1000.000000</val0>
+<val1>1000.000000</val1>
+<val2>1000.000000</val2>
+</JerkMetric>
+<SptintLasOption>2</SptintLasOption>
+<PcsOption>1</PcsOption>
+<PaletteChangeoverTime>00:00:30.000</PaletteChangeoverTime>
+<HeadChangeoverTime>00:00:00.000</HeadChangeoverTime>
+<AvgLaserG1>440.000000</AvgLaserG1>
+<AvgLaserG100>4758.000000</AvgLaserG100>
+<OptionPaletteChanger>1</OptionPaletteChanger>
+<m_performancePaket>0</m_performancePaket>
+<WasteManagement/>
+</AreaLaser>
+</MachineTechno>
+<Laser>
+<Name>TruFlow 4000</Name>
+<MaxPower unit="W">4000.000000</MaxPower>
+<EnergyGradient>0.336700</EnergyGradient>
+<CValue>32.000000</CValue>
+<EnergyGradient2>0.000000</EnergyGradient2>
+<CValue2>0.000000</CValue2>
+<EnergyStandby unit="kW">31.000000</EnergyStandby>
+</Laser>
+<LaserMachine>
+<Power100Percent unit="kW">65.670000</Power100Percent>
+<Power1Percent unit="kW">32.336700</Power1Percent>
+<PowerRegularStandby unit="kW">31.000000</PowerRegularStandby>
+<PowerOptimalStandby unit="kW">31.000000</PowerOptimalStandby>
+</LaserMachine>
+<WearCostsPunch>
+<metric_qty unit="EUR/h">0.000000</metric_qty>
+<inch_qty unit="EUR/h">0.000000</inch_qty>
+</WearCostsPunch>
+<WearCostsLaser>
+<metric_qty unit="EUR/h">1.820000</metric_qty>
+<inch_qty unit="EUR/h">1.820000</inch_qty>
+</WearCostsLaser>
+</WorkPlaceData>
+<Enabled>1</Enabled>
+<TargetProcessingTime>00:02:19.574</TargetProcessingTime>
+<TargetProcessingTimeData>
+<ProductionTime>
+<OperatingTime>
+<LaserTime>00:02:01.462</LaserTime>
+</OperatingTime>
+<PositioningTime>00:00:18.112</PositioningTime>
+</ProductionTime>
+<AuxiliaryProcessTime>
+<SetupTime>00:05:00.000</SetupTime>
+</AuxiliaryProcessTime>
+</TargetProcessingTimeData>
+<CalculateTargetProcessingTime>1</CalculateTargetProcessingTime>
+<Base>0</Base>
+<TargetSetupTimeSetByFabFlag>0</TargetSetupTimeSetByFabFlag>
+<TargetSetupTime>00:05:00.000</TargetSetupTime>
+<WorkStepType>10</WorkStepType>
+<ActivityFactor>50</ActivityFactor>
+<UseConstValue>0</UseConstValue>
+<ConstantValue unit="EUR">0.000000</ConstantValue>
+<MachinePotOverride>80</MachinePotOverride>
+<CorrMainTime>0</CorrMainTime>
+<WorkStepNo>10</WorkStepNo>
+<WorkStepTypeName>Obróbka NC arkusza</WorkStepTypeName>
+<CalculationModel>0</CalculationModel>
+<OptionOperatorEnabled>0</OptionOperatorEnabled>
+<NumberOfOperators>1</NumberOfOperators>
+<WeightEnabled>0</WeightEnabled>
+<WeightQuantity unit="kg">0.000000</WeightQuantity>
+<LengthEnabled>0</LengthEnabled>
+<LengthQuantity unit="m">0.000000</LengthQuantity>
+<Resources>
+<Resource>
+<ArticleID>279</ArticleID>
+<ArticleNo>ST0M0200----3000x1500</ArticleNo>
+<SheetCosts unit="EUR">0.000000</SheetCosts>
+<ComputeSheetCosts>1</ComputeSheetCosts>
+<RawMaterialID>353</RawMaterialID>
+<RawMaterialName>St37-20</RawMaterialName>
+<Length unit="mm">3000.000000</Length>
+<Width unit="mm">1500.000000</Width>
+<Quantity unit="Ilość">0.361000</Quantity>
+<QuantityType>Stk</QuantityType>
+<Description>ST0M0200----3000x1500 St37-20-3000x1500 </Description>
+<Note></Note>
+<DirectionOfRolling>Undefined</DirectionOfRolling>
+<GrindingDirection>Undefined</GrindingDirection>
+</Resource>
+</Resources>
+<WorkStepCosts>
+<NetcostsAPiece unit="EUR">72.704167</NetcostsAPiece>
+<Netcosts unit="EUR">72.704167</Netcosts>
+</WorkStepCosts>
+</WorkingStep>
+</WorkingSteps>
+</WorkingPlan>
+<Technology>
+<RotationMode>0</RotationMode>
+<RotationIncrement unit="°">90.000000</RotationIncrement>
+<MultiPart>0</MultiPart>
+<TwinLine>0</TwinLine>
+<GridFit>0</GridFit>
+<AccountBaseFlag>1</AccountBaseFlag>
+<AccountSheetMode>1</AccountSheetMode>
+<AccountUncompleteSheetSurcharge>0</AccountUncompleteSheetSurcharge>
+<TwoHeadProcessing>0</TwoHeadProcessing>
+<RollingDirection>X</RollingDirection>
+<MultiPartNest>0</MultiPartNest>
+<NestDirectionFlag>X</NestDirectionFlag>
+<MeanderFlag>0</MeanderFlag>
+<NestMode>2</NestMode>
+<NestStrategy>0</NestStrategy>
+<ClampDeadArea unit="mm">0.000000</ClampDeadArea>
+<FitPartInPart>0</FitPartInPart>
+<NestResolution>0</NestResolution>
+<Base unit="mm">10.000000</Base>
+<TwinLineDistance unit="mm">0.000000</TwinLineDistance>
+<DischargeWithOpenFlapFlag>0</DischargeWithOpenFlapFlag>
+<uuid>{247e80c4-9c37-4f2a-b364-879a7cba7b15}</uuid>
+<Quality>0</Quality>
+<CADFileName>N:\Wsp-Tym\ESM\autoWycena\geo\AB09002118565_A.geo</CADFileName>
+<PartInformation>
+<SizeX unit="mm">1060.000000</SizeX>
+<SizeY unit="mm">1298.768000</SizeY>
+<PartWeight unit="kg">14.988065</PartWeight>
+<PartArea unit="mm²">954653.843514</PartArea>
+<RectangleArea unit="mm²">1376694.080000</RectangleArea>
+<RectangleWeight unit="kg">21.614097</RectangleWeight>
+<CuttingLength unit="mm">6227.950441</CuttingLength>
+<BendingLines>2</BendingLines>
+<BendingLength unit="mm">1547.150000</BendingLength>
+</PartInformation>
+<AreaOutside unit="mm²">957568.640792</AreaOutside>
+<AreaInside unit="mm²">2914.797279</AreaInside>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">208.000000</parameter_1>
+<parameter_2 unit="mm">1298.768000</parameter_2>
+<parameter_3 unit="mm">208.000000</parameter_3>
+<parameter_4 unit="mm">1041.831000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">158.000000</parameter_1>
+<parameter_2 unit="mm">1041.831000</parameter_2>
+<parameter_3 unit="mm">208.000000</parameter_3>
+<parameter_4 unit="mm">1041.831000</parameter_4>
+<parameter_5 unit="rad">-1.287002</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">186.000000</parameter_1>
+<parameter_2 unit="mm">945.831000</parameter_2>
+<parameter_3 unit="mm">172.000000</parameter_3>
+<parameter_4 unit="mm">993.831000</parameter_4>
+<parameter_5 unit="rad">1.287002</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">136.000000</parameter_1>
+<parameter_2 unit="mm">945.831000</parameter_2>
+<parameter_3 unit="mm">136.000000</parameter_3>
+<parameter_4 unit="mm">760.223000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">186.000000</parameter_1>
+<parameter_2 unit="mm">760.223000</parameter_2>
+<parameter_3 unit="mm">136.000000</parameter_3>
+<parameter_4 unit="mm">760.223000</parameter_4>
+<parameter_5 unit="rad">1.287002</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">158.000000</parameter_1>
+<parameter_2 unit="mm">664.223000</parameter_2>
+<parameter_3 unit="mm">172.000000</parameter_3>
+<parameter_4 unit="mm">712.223000</parameter_4>
+<parameter_5 unit="rad">-1.287002</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">208.000000</parameter_1>
+<parameter_2 unit="mm">664.223000</parameter_2>
+<parameter_3 unit="mm">208.000000</parameter_3>
+<parameter_4 unit="mm">532.527000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">208.000000</parameter_1>
+<parameter_2 unit="mm">532.527000</parameter_2>
+<parameter_3 unit="mm">254.425000</parameter_3>
+<parameter_4 unit="mm">532.527000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">254.425000</parameter_1>
+<parameter_2 unit="mm">532.527000</parameter_2>
+<parameter_3 unit="mm">254.425000</parameter_3>
+<parameter_4 unit="mm">540.527000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">255.425000</parameter_1>
+<parameter_2 unit="mm">540.527000</parameter_2>
+<parameter_3 unit="mm">254.425000</parameter_3>
+<parameter_4 unit="mm">540.527000</parameter_4>
+<parameter_5 unit="rad">-3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">256.425000</parameter_1>
+<parameter_2 unit="mm">540.527000</parameter_2>
+<parameter_3 unit="mm">256.425000</parameter_3>
+<parameter_4 unit="mm">414.263000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">236.425000</parameter_1>
+<parameter_2 unit="mm">414.263000</parameter_2>
+<parameter_3 unit="mm">256.425000</parameter_3>
+<parameter_4 unit="mm">414.263000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">236.425000</parameter_1>
+<parameter_2 unit="mm">394.263000</parameter_2>
+<parameter_3 unit="mm">30.000000</parameter_3>
+<parameter_4 unit="mm">394.263000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">30.000000</parameter_1>
+<parameter_2 unit="mm">394.263000</parameter_2>
+<parameter_3 unit="mm">30.000000</parameter_3>
+<parameter_4 unit="mm">56.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">30.000000</parameter_1>
+<parameter_2 unit="mm">56.500000</parameter_2>
+<parameter_3 unit="mm">0.000000</parameter_3>
+<parameter_4 unit="mm">56.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">0.000000</parameter_1>
+<parameter_2 unit="mm">56.500000</parameter_2>
+<parameter_3 unit="mm">0.000000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">0.000000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">30.000000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">30.000000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">30.000000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">30.000000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">40.000000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">40.000000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">40.000000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">40.000000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">457.500000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">457.500000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">457.500000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">457.500000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">467.500000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">467.500000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">467.500000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">467.500000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">492.500000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">492.500000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">532.500000</parameter_3>
+<parameter_4 unit="mm">1.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">532.500000</parameter_1>
+<parameter_2 unit="mm">1.500000</parameter_2>
+<parameter_3 unit="mm">637.500000</parameter_3>
+<parameter_4 unit="mm">1.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">637.500000</parameter_1>
+<parameter_2 unit="mm">1.500000</parameter_2>
+<parameter_3 unit="mm">637.500000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">637.500000</parameter_1>
+<parameter_2 unit="mm">0.000000</parameter_2>
+<parameter_3 unit="mm">641.000000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">641.000000</parameter_1>
+<parameter_2 unit="mm">0.000000</parameter_2>
+<parameter_3 unit="mm">642.500000</parameter_3>
+<parameter_4 unit="mm">1.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">642.500000</parameter_1>
+<parameter_2 unit="mm">1.500000</parameter_2>
+<parameter_3 unit="mm">644.000000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">644.000000</parameter_1>
+<parameter_2 unit="mm">0.000000</parameter_2>
+<parameter_3 unit="mm">647.500000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">647.500000</parameter_1>
+<parameter_2 unit="mm">0.000000</parameter_2>
+<parameter_3 unit="mm">647.500000</parameter_3>
+<parameter_4 unit="mm">1.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">647.500000</parameter_1>
+<parameter_2 unit="mm">1.500000</parameter_2>
+<parameter_3 unit="mm">752.500000</parameter_3>
+<parameter_4 unit="mm">1.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">752.500000</parameter_1>
+<parameter_2 unit="mm">1.500000</parameter_2>
+<parameter_3 unit="mm">792.500000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">792.500000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">817.500000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">817.500000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">817.500000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">817.500000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">827.500000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">827.500000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">827.500000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">827.500000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">1020.000000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1020.000000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">1020.000000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1020.000000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">1030.000000</parameter_3>
+<parameter_4 unit="mm">35.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1030.000000</parameter_1>
+<parameter_2 unit="mm">35.000000</parameter_2>
+<parameter_3 unit="mm">1030.000000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1030.000000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">1060.000000</parameter_3>
+<parameter_4 unit="mm">36.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1060.000000</parameter_1>
+<parameter_2 unit="mm">36.500000</parameter_2>
+<parameter_3 unit="mm">1060.000000</parameter_3>
+<parameter_4 unit="mm">56.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1060.000000</parameter_1>
+<parameter_2 unit="mm">56.500000</parameter_2>
+<parameter_3 unit="mm">1030.000000</parameter_3>
+<parameter_4 unit="mm">56.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1030.000000</parameter_1>
+<parameter_2 unit="mm">56.500000</parameter_2>
+<parameter_3 unit="mm">1030.000000</parameter_3>
+<parameter_4 unit="mm">394.263000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">1030.000000</parameter_1>
+<parameter_2 unit="mm">394.263000</parameter_2>
+<parameter_3 unit="mm">823.575000</parameter_3>
+<parameter_4 unit="mm">394.263000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">823.575000</parameter_1>
+<parameter_2 unit="mm">414.263000</parameter_2>
+<parameter_3 unit="mm">823.575000</parameter_3>
+<parameter_4 unit="mm">394.263000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">803.575000</parameter_1>
+<parameter_2 unit="mm">414.263000</parameter_2>
+<parameter_3 unit="mm">803.575000</parameter_3>
+<parameter_4 unit="mm">540.527000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">804.575000</parameter_1>
+<parameter_2 unit="mm">540.527000</parameter_2>
+<parameter_3 unit="mm">803.575000</parameter_3>
+<parameter_4 unit="mm">540.527000</parameter_4>
+<parameter_5 unit="rad">-3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">805.575000</parameter_1>
+<parameter_2 unit="mm">540.527000</parameter_2>
+<parameter_3 unit="mm">805.575000</parameter_3>
+<parameter_4 unit="mm">532.527000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">805.575000</parameter_1>
+<parameter_2 unit="mm">532.527000</parameter_2>
+<parameter_3 unit="mm">852.000000</parameter_3>
+<parameter_4 unit="mm">532.527000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">852.000000</parameter_1>
+<parameter_2 unit="mm">532.527000</parameter_2>
+<parameter_3 unit="mm">852.000000</parameter_3>
+<parameter_4 unit="mm">949.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">852.000000</parameter_1>
+<parameter_2 unit="mm">949.027000</parameter_2>
+<parameter_3 unit="mm">842.000000</parameter_3>
+<parameter_4 unit="mm">949.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.000000</parameter_1>
+<parameter_2 unit="mm">949.027000</parameter_2>
+<parameter_3 unit="mm">842.000000</parameter_3>
+<parameter_4 unit="mm">958.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.000000</parameter_1>
+<parameter_2 unit="mm">958.027000</parameter_2>
+<parameter_3 unit="mm">852.000000</parameter_3>
+<parameter_4 unit="mm">958.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">852.000000</parameter_1>
+<parameter_2 unit="mm">958.027000</parameter_2>
+<parameter_3 unit="mm">852.000000</parameter_3>
+<parameter_4 unit="mm">1298.768000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">852.000000</parameter_1>
+<parameter_2 unit="mm">1298.768000</parameter_2>
+<parameter_3 unit="mm">208.000000</parameter_3>
+<parameter_4 unit="mm">1298.768000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">295.500000</parameter_1>
+<parameter_2 unit="mm">846.277000</parameter_2>
+<parameter_3 unit="mm">274.500000</parameter_3>
+<parameter_4 unit="mm">846.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">274.500000</parameter_1>
+<parameter_2 unit="mm">846.277000</parameter_2>
+<parameter_3 unit="mm">274.500000</parameter_3>
+<parameter_4 unit="mm">859.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">274.500000</parameter_1>
+<parameter_2 unit="mm">859.777000</parameter_2>
+<parameter_3 unit="mm">295.500000</parameter_3>
+<parameter_4 unit="mm">859.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">295.500000</parameter_1>
+<parameter_2 unit="mm">859.777000</parameter_2>
+<parameter_3 unit="mm">295.500000</parameter_3>
+<parameter_4 unit="mm">846.277000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">653.000000</parameter_1>
+<parameter_2 unit="mm">1030.777000</parameter_2>
+<parameter_3 unit="mm">632.000000</parameter_3>
+<parameter_4 unit="mm">1030.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">632.000000</parameter_1>
+<parameter_2 unit="mm">1030.777000</parameter_2>
+<parameter_3 unit="mm">632.000000</parameter_3>
+<parameter_4 unit="mm">1044.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">632.000000</parameter_1>
+<parameter_2 unit="mm">1044.277000</parameter_2>
+<parameter_3 unit="mm">653.000000</parameter_3>
+<parameter_4 unit="mm">1044.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">653.000000</parameter_1>
+<parameter_2 unit="mm">1044.277000</parameter_2>
+<parameter_3 unit="mm">653.000000</parameter_3>
+<parameter_4 unit="mm">1030.777000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">551.000000</parameter_1>
+<parameter_2 unit="mm">73.500000</parameter_2>
+<parameter_3 unit="mm">562.000000</parameter_3>
+<parameter_4 unit="mm">73.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">562.000000</parameter_1>
+<parameter_2 unit="mm">73.500000</parameter_2>
+<parameter_3 unit="mm">562.000000</parameter_3>
+<parameter_4 unit="mm">53.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">562.000000</parameter_1>
+<parameter_2 unit="mm">53.500000</parameter_2>
+<parameter_3 unit="mm">551.000000</parameter_3>
+<parameter_4 unit="mm">53.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">551.000000</parameter_1>
+<parameter_2 unit="mm">53.500000</parameter_2>
+<parameter_3 unit="mm">551.000000</parameter_3>
+<parameter_4 unit="mm">73.500000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">734.000000</parameter_1>
+<parameter_2 unit="mm">53.500000</parameter_2>
+<parameter_3 unit="mm">734.000000</parameter_3>
+<parameter_4 unit="mm">73.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">734.000000</parameter_1>
+<parameter_2 unit="mm">73.500000</parameter_2>
+<parameter_3 unit="mm">723.000000</parameter_3>
+<parameter_4 unit="mm">73.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">723.000000</parameter_1>
+<parameter_2 unit="mm">73.500000</parameter_2>
+<parameter_3 unit="mm">723.000000</parameter_3>
+<parameter_4 unit="mm">53.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">723.000000</parameter_1>
+<parameter_2 unit="mm">53.500000</parameter_2>
+<parameter_3 unit="mm">734.000000</parameter_3>
+<parameter_4 unit="mm">53.500000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">136.500000</parameter_1>
+<parameter_2 unit="mm">287.000000</parameter_2>
+<parameter_3 unit="mm">6.100000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">898.500000</parameter_1>
+<parameter_2 unit="mm">287.000000</parameter_2>
+<parameter_3 unit="mm">6.100000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">222.250000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">222.250000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">222.250000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">217.750000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">217.750000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">217.750000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">217.750000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">222.250000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">222.250000</parameter_1>
+<parameter_2 unit="mm">1220.027000</parameter_2>
+<parameter_3 unit="mm">222.250000</parameter_3>
+<parameter_4 unit="mm">1199.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">222.250000</parameter_1>
+<parameter_2 unit="mm">1199.027000</parameter_2>
+<parameter_3 unit="mm">217.750000</parameter_3>
+<parameter_4 unit="mm">1199.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">217.750000</parameter_1>
+<parameter_2 unit="mm">1199.027000</parameter_2>
+<parameter_3 unit="mm">217.750000</parameter_3>
+<parameter_4 unit="mm">1220.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">217.750000</parameter_1>
+<parameter_2 unit="mm">1220.027000</parameter_2>
+<parameter_3 unit="mm">222.250000</parameter_3>
+<parameter_4 unit="mm">1220.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">370.750000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">370.750000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">370.750000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">366.250000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">366.250000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">366.250000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">366.250000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">370.750000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">370.750000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">366.250000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">366.250000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">366.250000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">366.250000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">370.750000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">370.750000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">370.750000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">557.250000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">557.250000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">557.250000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">561.750000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">561.750000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">561.750000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">561.750000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">557.250000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">561.750000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">557.250000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">557.250000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">557.250000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">557.250000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">561.750000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">561.750000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">561.750000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">640.250000</parameter_1>
+<parameter_2 unit="mm">1220.027000</parameter_2>
+<parameter_3 unit="mm">640.250000</parameter_3>
+<parameter_4 unit="mm">1199.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">640.250000</parameter_1>
+<parameter_2 unit="mm">1199.027000</parameter_2>
+<parameter_3 unit="mm">644.750000</parameter_3>
+<parameter_4 unit="mm">1199.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">644.750000</parameter_1>
+<parameter_2 unit="mm">1199.027000</parameter_2>
+<parameter_3 unit="mm">644.750000</parameter_3>
+<parameter_4 unit="mm">1220.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">644.750000</parameter_1>
+<parameter_2 unit="mm">1220.027000</parameter_2>
+<parameter_3 unit="mm">640.250000</parameter_3>
+<parameter_4 unit="mm">1220.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">727.750000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">727.750000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">727.750000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">723.250000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">723.250000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">723.250000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">723.250000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">727.750000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">727.750000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">727.750000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">727.750000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">723.250000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">723.250000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">723.250000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">723.250000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">727.750000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.250000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">837.750000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">837.750000</parameter_1>
+<parameter_2 unit="mm">232.500000</parameter_2>
+<parameter_3 unit="mm">837.750000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">837.750000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">842.250000</parameter_3>
+<parameter_4 unit="mm">253.500000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.250000</parameter_1>
+<parameter_2 unit="mm">253.500000</parameter_2>
+<parameter_3 unit="mm">842.250000</parameter_3>
+<parameter_4 unit="mm">232.500000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.250000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">842.250000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.250000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">837.750000</parameter_3>
+<parameter_4 unit="mm">634.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">837.750000</parameter_1>
+<parameter_2 unit="mm">634.027000</parameter_2>
+<parameter_3 unit="mm">837.750000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">837.750000</parameter_1>
+<parameter_2 unit="mm">655.027000</parameter_2>
+<parameter_3 unit="mm">842.250000</parameter_3>
+<parameter_4 unit="mm">655.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">837.750000</parameter_1>
+<parameter_2 unit="mm">1220.027000</parameter_2>
+<parameter_3 unit="mm">837.750000</parameter_3>
+<parameter_4 unit="mm">1199.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">837.750000</parameter_1>
+<parameter_2 unit="mm">1199.027000</parameter_2>
+<parameter_3 unit="mm">842.250000</parameter_3>
+<parameter_4 unit="mm">1199.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.250000</parameter_1>
+<parameter_2 unit="mm">1199.027000</parameter_2>
+<parameter_3 unit="mm">842.250000</parameter_3>
+<parameter_4 unit="mm">1220.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">842.250000</parameter_1>
+<parameter_2 unit="mm">1220.027000</parameter_2>
+<parameter_3 unit="mm">837.750000</parameter_3>
+<parameter_4 unit="mm">1220.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">222.250000</parameter_1>
+<parameter_2 unit="mm">1036.027000</parameter_2>
+<parameter_3 unit="mm">217.750000</parameter_3>
+<parameter_4 unit="mm">1036.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">217.750000</parameter_1>
+<parameter_2 unit="mm">1036.027000</parameter_2>
+<parameter_3 unit="mm">217.750000</parameter_3>
+<parameter_4 unit="mm">1056.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">217.750000</parameter_1>
+<parameter_2 unit="mm">1056.027000</parameter_2>
+<parameter_3 unit="mm">222.250000</parameter_3>
+<parameter_4 unit="mm">1056.027000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">222.250000</parameter_1>
+<parameter_2 unit="mm">1056.027000</parameter_2>
+<parameter_3 unit="mm">222.250000</parameter_3>
+<parameter_4 unit="mm">1036.027000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">306.000000</parameter_1>
+<parameter_2 unit="mm">951.277000</parameter_2>
+<parameter_3 unit="mm">286.000000</parameter_3>
+<parameter_4 unit="mm">951.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">286.000000</parameter_1>
+<parameter_2 unit="mm">951.277000</parameter_2>
+<parameter_3 unit="mm">286.000000</parameter_3>
+<parameter_4 unit="mm">955.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">286.000000</parameter_1>
+<parameter_2 unit="mm">955.777000</parameter_2>
+<parameter_3 unit="mm">306.000000</parameter_3>
+<parameter_4 unit="mm">955.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">306.000000</parameter_1>
+<parameter_2 unit="mm">955.777000</parameter_2>
+<parameter_3 unit="mm">306.000000</parameter_3>
+<parameter_4 unit="mm">951.277000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">286.000000</parameter_1>
+<parameter_2 unit="mm">1113.277000</parameter_2>
+<parameter_3 unit="mm">286.000000</parameter_3>
+<parameter_4 unit="mm">1117.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">286.000000</parameter_1>
+<parameter_2 unit="mm">1117.777000</parameter_2>
+<parameter_3 unit="mm">306.000000</parameter_3>
+<parameter_4 unit="mm">1117.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">306.000000</parameter_1>
+<parameter_2 unit="mm">1117.777000</parameter_2>
+<parameter_3 unit="mm">306.000000</parameter_3>
+<parameter_4 unit="mm">1113.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">306.000000</parameter_1>
+<parameter_2 unit="mm">1113.277000</parameter_2>
+<parameter_3 unit="mm">286.000000</parameter_3>
+<parameter_4 unit="mm">1113.277000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">495.000000</parameter_1>
+<parameter_2 unit="mm">1117.777000</parameter_2>
+<parameter_3 unit="mm">475.000000</parameter_3>
+<parameter_4 unit="mm">1117.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">475.000000</parameter_1>
+<parameter_2 unit="mm">1117.777000</parameter_2>
+<parameter_3 unit="mm">475.000000</parameter_3>
+<parameter_4 unit="mm">1113.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">475.000000</parameter_1>
+<parameter_2 unit="mm">1113.277000</parameter_2>
+<parameter_3 unit="mm">495.000000</parameter_3>
+<parameter_4 unit="mm">1113.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">495.000000</parameter_1>
+<parameter_2 unit="mm">1113.277000</parameter_2>
+<parameter_3 unit="mm">495.000000</parameter_3>
+<parameter_4 unit="mm">1117.777000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">657.500000</parameter_1>
+<parameter_2 unit="mm">951.277000</parameter_2>
+<parameter_3 unit="mm">657.500000</parameter_3>
+<parameter_4 unit="mm">955.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">657.500000</parameter_1>
+<parameter_2 unit="mm">955.777000</parameter_2>
+<parameter_3 unit="mm">637.500000</parameter_3>
+<parameter_4 unit="mm">955.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">637.500000</parameter_1>
+<parameter_2 unit="mm">955.777000</parameter_2>
+<parameter_3 unit="mm">637.500000</parameter_3>
+<parameter_4 unit="mm">951.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">637.500000</parameter_1>
+<parameter_2 unit="mm">951.277000</parameter_2>
+<parameter_3 unit="mm">657.500000</parameter_3>
+<parameter_4 unit="mm">951.277000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">793.500000</parameter_1>
+<parameter_2 unit="mm">1117.777000</parameter_2>
+<parameter_3 unit="mm">773.500000</parameter_3>
+<parameter_4 unit="mm">1117.777000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">773.500000</parameter_1>
+<parameter_2 unit="mm">1117.777000</parameter_2>
+<parameter_3 unit="mm">773.500000</parameter_3>
+<parameter_4 unit="mm">1113.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">773.500000</parameter_1>
+<parameter_2 unit="mm">1113.277000</parameter_2>
+<parameter_3 unit="mm">793.500000</parameter_3>
+<parameter_4 unit="mm">1113.277000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">793.500000</parameter_1>
+<parameter_2 unit="mm">1113.277000</parameter_2>
+<parameter_3 unit="mm">793.500000</parameter_3>
+<parameter_4 unit="mm">1117.777000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<Bend>
+<BendType>0</BendType>
+<BendTechnology>0</BendTechnology>
+<BendMethod>0</BendMethod>
+<ConeAngle unit="°">-90.000000</ConeAngle>
+<PreAngle unit="°">0.000000</PreAngle>
+<BendRadius unit="mm">3.661902</BendRadius>
+<FoldingFactor unit="mm">-6.736580</FoldingFactor>
+<UpperDie>OW200/K R1/86 H120</UpperDie>
+<LowerDie>EV W10/84 R1</LowerDie>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>4</color>
+<parameter_1 unit="mm">803.575000</parameter_1>
+<parameter_2 unit="mm">527.895000</parameter_2>
+<parameter_3 unit="mm">256.425000</parameter_3>
+<parameter_4 unit="mm">527.895000</parameter_4>
+</GeoSegment>
+</Bend>
+<Bend>
+<BendType>0</BendType>
+<BendTechnology>0</BendTechnology>
+<BendMethod>0</BendMethod>
+<ConeAngle unit="°">90.000000</ConeAngle>
+<PreAngle unit="°">0.000000</PreAngle>
+<BendRadius unit="mm">3.661902</BendRadius>
+<FoldingFactor unit="mm">-6.736580</FoldingFactor>
+<UpperDie>OW200/K R1/86 H120</UpperDie>
+<LowerDie>EV W10/84 R1</LowerDie>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>4</color>
+<parameter_1 unit="mm">30.000000</parameter_1>
+<parameter_2 unit="mm">345.632000</parameter_2>
+<parameter_3 unit="mm">1030.000000</parameter_3>
+<parameter_4 unit="mm">345.632000</parameter_4>
+</GeoSegment>
+</Bend>
+<ApproxGeometry>
+<outside>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>0</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>19</contour_type>
+<description>Dowolny kontur 4 983,3x1,5x1 060x1 298,8x45x1</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">957569.000000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">4983.290000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">1.500000</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">1060.000000</val>
+</parameter_3>
+<parameter_4>
+<val unit="mm">1298.770000</val>
+</parameter_4>
+<parameter_5>
+<val unit="Ilość">45.000000</val>
+</parameter_5>
+<parameter_6>
+<val unit="">1.000000</val>
+</parameter_6>
+<parameter_7>
+<val unit="">0.000000</val>
+</parameter_7>
+<contour_segment>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>3</cut_begin>
+</laser_process>
+<contour_type>21</contour_type>
+<description>Podcięcie w narożniku punkt 30x1,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">0.000000</area>
+<average_distance>
+<val unit="mm">1000.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">30.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">1.500000</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">0.000000</val>
+</parameter_3>
+</contour_segment>
+<contour_segment>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>3</cut_begin>
+</laser_process>
+<contour_type>22</contour_type>
+<description>Podcięcie w narożniku prostokątne 417,5x1,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">0.000000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">417.500000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">1.500000</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">0.000000</val>
+</parameter_3>
+</contour_segment>
+<contour_segment>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>3</cut_begin>
+</laser_process>
+<contour_type>21</contour_type>
+<description>Podcięcie w narożniku punkt 2,1x2,1</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">0.000000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">2.121320</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">2.121320</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">0.000000</val>
+</parameter_3>
+</contour_segment>
+<contour_segment>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>3</cut_begin>
+</laser_process>
+<contour_type>22</contour_type>
+<description>Podcięcie w narożniku prostokątne 192,5x1,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">0.000000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">192.500000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">1.500000</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">0.000000</val>
+</parameter_3>
+</contour_segment>
+<contour_segment>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>3</cut_begin>
+</laser_process>
+<contour_type>21</contour_type>
+<description>Podcięcie w narożniku punkt 337,8x30</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">0.000000</area>
+<average_distance>
+<val unit="mm">1000.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">337.763000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">30.000000</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">0.000000</val>
+</parameter_3>
+</contour_segment>
+<contour_segment>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>3</cut_begin>
+</laser_process>
+<contour_type>22</contour_type>
+<description>Podcięcie w narożniku prostokątne 9x10</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">0.000000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">9.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">9.999980</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">0.000000</val>
+</parameter_3>
+</contour_segment>
+</contour>
+</outside>
+<inside>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 20x4,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>6</quantity>
+<area unit="mm²">90.000000</area>
+<average_distance>
+<val unit="mm">182.338000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">20.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">4.500000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 21x4,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>12</quantity>
+<area unit="mm²">94.500000</area>
+<average_distance>
+<val unit="mm">556.118000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">21.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">4.500000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>11</contour_type>
+<description>Okrąg 12,2</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">116.899000</area>
+<average_distance>
+<val unit="mm">762.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">12.200000</val>
+</parameter_1>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 20x11</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">220.000000</area>
+<average_distance>
+<val unit="mm">172.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">20.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">11.000000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 21x13,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">283.500000</area>
+<average_distance>
+<val unit="mm">402.302000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">21.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">13.500000</val>
+</parameter_2>
+</contour>
+</inside>
+</ApproxGeometry>
+</Technology>
+<Consistent>true</Consistent>
+<SalesPrices>
+<OrderPrice>
+<NetcostsOrder unit="EUR">72.704167</NetcostsOrder>
+<GrosscostsOrder unit="EUR">72.704167</GrosscostsOrder>
+<NetcostsAPiece unit="EUR/Ilość">72.704167</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">72.704167</GrosscostsAPiece>
+</OrderPrice>
+<ScalePrices>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">72.704167</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">72.704167</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">72.704167</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">72.704167</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">5.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">64.706716</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">64.706716</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">10.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">63.672457</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">63.672457</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">50.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">62.900374</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">62.900374</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">100.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">62.803864</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">62.803864</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">500.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">62.726639</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">62.726639</GrosscostsAPiece>
+</ScalePriceEntry>
+</ScalePrices>
+</SalesPrices>
+</Part>
+<Part ProcessingTechnology="CUT" Uuid="{8acbbd2e-4c69-4846-8c90-a5afa642342f}" ID="3">
+<ArticleNo>GL00001319736_GLD0_01</ArticleNo>
+<ArticleNoExt></ArticleNoExt>
+<ArticleDescription></ArticleDescription>
+<Assembly>0</Assembly>
+<Image></Image>
+<RawMaterialID>353</RawMaterialID>
+<RawMaterialName>St37-20</RawMaterialName>
+<Costs>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</Costs>
+<Material>
+<MaterialId>353</MaterialId>
+<MaterialName>St37-20</MaterialName>
+<MaterialUuid>{21ea32cb-b2b4-4098-8415-724667ef4862}</MaterialUuid>
+<MaterialDescription>s=2,0 mm</MaterialDescription>
+<MaterialNote></MaterialNote>
+<CorrectionFactorSpecificWeight>1.000000</CorrectionFactorSpecificWeight>
+<MaterialThickness unit="mm">2.000000</MaterialThickness>
+<Vaporize>0</Vaporize>
+<Foil>20</Foil>
+<Surface>10</Surface>
+<ProtectSurface>0</ProtectSurface>
+<MaterialCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</MaterialCosts>
+<ComputeMaterialCosts>1</ComputeMaterialCosts>
+<MaterialOrderCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</MaterialOrderCosts>
+<BasicMaterial>
+<BasicMaterialName>1.0038</BasicMaterialName>
+<BasicMaterialId>20001</BasicMaterialId>
+<BasicMaterialUuid>{7bab1f67-0835-4f3c-ad67-5e04dbf96146}</BasicMaterialUuid>
+<BasicMaterialDescription>St37; Fe360; 40 B;ST;AE235; RSt37-2; BSt 3 sp 2; NS 12 124; St360; Fe; DC01; DC03; Fe P0X; C; CR4; AP00; 1142; A366</BasicMaterialDescription>
+<BasicMaterialNote></BasicMaterialNote>
+<BasicMaterialIsSystem>20001</BasicMaterialIsSystem>
+<TensileStrength unit="N/mm²">450.000000</TensileStrength>
+<SpecificWeight unit="kg/dm³">7.850000</SpecificWeight>
+<BasicMaterialCosts>
+<metric_qty unit="EUR/kg">0.000000</metric_qty>
+<inch_qty unit="EUR/lb">0.000000</inch_qty>
+</BasicMaterialCosts>
+<BasicMaterialGroup>
+<BasicMaterialGroup>Steel</BasicMaterialGroup>
+<BasicMaterialGroupUuid>{cdb44dc0-7926-4b26-baf9-5c23d5b73802}</BasicMaterialGroupUuid>
+<BasicMaterialGroupNote>St37; Fe360; 40 B;ST;AE235; RSt37-2; BSt 3 sp 2; NS 12 124; St360; Fe; DC01; DC03; Fe P0X; C; CR4; AP00; 1142; A366</BasicMaterialGroupNote>
+<BasicMaterialGroupCosts>
+<metric_qty unit="EUR/kg">2.300000</metric_qty>
+<inch_qty unit="EUR/lb">1.043263</inch_qty>
+</BasicMaterialGroupCosts>
+<ScrapValue>
+<metric_qty unit="EUR/kg">0.000000</metric_qty>
+<inch_qty unit="EUR/lb">0.000000</inch_qty>
+</ScrapValue>
+</BasicMaterialGroup>
+</BasicMaterial>
+<TechnoSettings/>
+</Material>
+<SubItems/>
+<WorkingPlan>
+<WorkingSteps>
+<WorkingStep>
+<WorkStepName>TruLaser 3030 (L3030)_MET</WorkStepName>
+<WorkPlace>TruLaser 3030 (L3030)_MET</WorkPlace>
+<WorkPlaceData>
+<Name>TruLaser 3030 (L3030)_MET</Name>
+<RequiredSpace unit="m²">0.000000</RequiredSpace>
+<InitialCost unit="EUR">0.000000</InitialCost>
+<DepreciationPeriod>0</DepreciationPeriod>
+<NumberOfShifts>0</NumberOfShifts>
+<MaintenanceCosts>0.000000</MaintenanceCosts>
+<AreaCosts>
+<metric_qty unit="EUR/m²">0.000000</metric_qty>
+<inch_qty unit="EUR/ft²">0.000000</inch_qty>
+</AreaCosts>
+<CapitalReturn>0.000000</CapitalReturn>
+<ShiftHoursPerYear>0</ShiftHoursPerYear>
+<MachineHourCosts>
+<Description>TruLaser 3030 (L3030)_MET</Description>
+<Value>
+<metric_qty unit="EUR/h">0.010000</metric_qty>
+<inch_qty unit="EUR/h">0.010000</inch_qty>
+</Value>
+<primaerStdSatz>1</primaerStdSatz>
+</MachineHourCosts>
+<HourlyRateDefined>1</HourlyRateDefined>
+<HourlyRate>
+<Description>Operator</Description>
+<Value>
+<metric_qty unit="EUR/h">50.000000</metric_qty>
+<inch_qty unit="EUR/h">50.000000</inch_qty>
+</Value>
+<DefDescription>Bediener</DefDescription>
+<Comment></Comment>
+</HourlyRate>
+<OperationFactor>50</OperationFactor>
+<OperationType>10</OperationType>
+<ShowOldProductName>0</ShowOldProductName>
+<MachineClass>0</MachineClass>
+<OverheadRate>
+<metric_qty unit="EUR/h">0.000000</metric_qty>
+<inch_qty unit="EUR/h">0.000000</inch_qty>
+</OverheadRate>
+<OptionPCS>0</OptionPCS>
+<OptionSprintLas>0</OptionSprintLas>
+<OptionPerformancePaket>0</OptionPerformancePaket>
+<LoadType>2</LoadType>
+<UnloadType>1</UnloadType>
+<SheetSkeletonUnloadType>1</SheetSkeletonUnloadType>
+<SheetSkeletonUnloadTime>00:00:00.000</SheetSkeletonUnloadTime>
+<DefaultLoadTime>00:00:00.000</DefaultLoadTime>
+<DefaultUnloadTime>00:00:00.000</DefaultUnloadTime>
+<DefaultSheetSkeletonUnloadTime>00:00:00.000</DefaultSheetSkeletonUnloadTime>
+<LoadTime>00:01:30.000</LoadTime>
+<UnloadTime>00:00:00.000</UnloadTime>
+<PaletteChangeoverTime>00:00:00.000</PaletteChangeoverTime>
+<ControlVersion>00999.00999.00999.00999</ControlVersion>
+<MachineTechno>
+<Id>2010</Id>
+<Name>TruLaser 3030 (L3030)</Name>
+<NameOld>L3030S</NameOld>
+<MachineType>1</MachineType>
+<MachineGroup>TC8</MachineGroup>
+<LaserType>0</LaserType>
+<Control>Sin 840D</Control>
+<MaxSheetDim>
+<val0>3030.000000</val0>
+<val1>1530.000000</val1>
+<val2>20.000000</val2>
+</MaxSheetDim>
+<MinSheetDim>
+<val0>0.000000</val0>
+<val1>0.000000</val1>
+<val2>0.000000</val2>
+</MinSheetDim>
+<MaxSheetWeight unit="kg">710.000000</MaxSheetWeight>
+<OperationArea>
+<val0>3030.000000</val0>
+<val1>1530.000000</val1>
+<val2>115.000000</val2>
+</OperationArea>
+<OvertravelP>
+<val0>80.000000</val0>
+<val1>45.000000</val1>
+<val2>0.000000</val2>
+</OvertravelP>
+<OvertravelM>
+<val0>-15.000000</val0>
+<val1>-19.000000</val1>
+<val2>-1.000000</val2>
+</OvertravelM>
+<DoubleHeadMinDistX unit="mm">-1.000000</DoubleHeadMinDistX>
+<DoubleHeadMinDistY unit="mm">-1.000000</DoubleHeadMinDistY>
+<ControlVersionSignificant>1</ControlVersionSignificant>
+<Category>3</Category>
+<AreaLaser>
+<MaxSpeedMetric>
+<val0>1.000000</val0>
+<val1>1.000000</val1>
+<val2>0.666667</val2>
+</MaxSpeedMetric>
+<AccelerationMetric>
+<val0>9.000000</val0>
+<val1>9.000000</val1>
+<val2>10.000000</val2>
+</AccelerationMetric>
+<JerkMetric>
+<val0>1000.000000</val0>
+<val1>1000.000000</val1>
+<val2>1000.000000</val2>
+</JerkMetric>
+<SptintLasOption>2</SptintLasOption>
+<PcsOption>1</PcsOption>
+<PaletteChangeoverTime>00:00:30.000</PaletteChangeoverTime>
+<HeadChangeoverTime>00:00:00.000</HeadChangeoverTime>
+<AvgLaserG1>440.000000</AvgLaserG1>
+<AvgLaserG100>4758.000000</AvgLaserG100>
+<OptionPaletteChanger>1</OptionPaletteChanger>
+<m_performancePaket>0</m_performancePaket>
+<WasteManagement/>
+</AreaLaser>
+</MachineTechno>
+<Laser>
+<Name>TruFlow 4000</Name>
+<MaxPower unit="W">4000.000000</MaxPower>
+<EnergyGradient>0.336700</EnergyGradient>
+<CValue>32.000000</CValue>
+<EnergyGradient2>0.000000</EnergyGradient2>
+<CValue2>0.000000</CValue2>
+<EnergyStandby unit="kW">31.000000</EnergyStandby>
+</Laser>
+<LaserMachine>
+<Power100Percent unit="kW">65.670000</Power100Percent>
+<Power1Percent unit="kW">32.336700</Power1Percent>
+<PowerRegularStandby unit="kW">31.000000</PowerRegularStandby>
+<PowerOptimalStandby unit="kW">31.000000</PowerOptimalStandby>
+</LaserMachine>
+<WearCostsPunch>
+<metric_qty unit="EUR/h">0.000000</metric_qty>
+<inch_qty unit="EUR/h">0.000000</inch_qty>
+</WearCostsPunch>
+<WearCostsLaser>
+<metric_qty unit="EUR/h">1.820000</metric_qty>
+<inch_qty unit="EUR/h">1.820000</inch_qty>
+</WearCostsLaser>
+</WorkPlaceData>
+<Enabled>1</Enabled>
+<TargetProcessingTime>00:01:47.570</TargetProcessingTime>
+<TargetProcessingTimeData>
+<ProductionTime>
+<OperatingTime>
+<LaserTime>00:01:15.258</LaserTime>
+</OperatingTime>
+<PositioningTime>00:00:12.595</PositioningTime>
+</ProductionTime>
+<AuxiliaryProcessTime>
+<SetupTime>00:05:00.000</SetupTime>
+<LoadingTime>00:00:19.717</LoadingTime>
+</AuxiliaryProcessTime>
+</TargetProcessingTimeData>
+<CalculateTargetProcessingTime>1</CalculateTargetProcessingTime>
+<Base>0</Base>
+<TargetSetupTimeSetByFabFlag>0</TargetSetupTimeSetByFabFlag>
+<TargetSetupTime>00:05:00.000</TargetSetupTime>
+<WorkStepType>10</WorkStepType>
+<ActivityFactor>50</ActivityFactor>
+<UseConstValue>0</UseConstValue>
+<ConstantValue unit="EUR">0.000000</ConstantValue>
+<MachinePotOverride>80</MachinePotOverride>
+<CorrMainTime>0</CorrMainTime>
+<WorkStepNo>10</WorkStepNo>
+<WorkStepTypeName>Obróbka NC arkusza</WorkStepTypeName>
+<CalculationModel>0</CalculationModel>
+<OptionOperatorEnabled>0</OptionOperatorEnabled>
+<NumberOfOperators>1</NumberOfOperators>
+<WeightEnabled>0</WeightEnabled>
+<WeightQuantity unit="kg">0.000000</WeightQuantity>
+<LengthEnabled>0</LengthEnabled>
+<LengthQuantity unit="m">0.000000</LengthQuantity>
+<Resources>
+<Resource>
+<ArticleID>279</ArticleID>
+<ArticleNo>ST0M0200----3000x1500</ArticleNo>
+<SheetCosts unit="EUR">0.000000</SheetCosts>
+<ComputeSheetCosts>1</ComputeSheetCosts>
+<RawMaterialID>353</RawMaterialID>
+<RawMaterialName>St37-20</RawMaterialName>
+<Length unit="mm">3000.000000</Length>
+<Width unit="mm">1500.000000</Width>
+<Quantity unit="Ilość">0.274000</Quantity>
+<QuantityType>Stk</QuantityType>
+<Description>ST0M0200----3000x1500 St37-20-3000x1500 </Description>
+<Note></Note>
+<DirectionOfRolling>Undefined</DirectionOfRolling>
+<GrindingDirection>Undefined</GrindingDirection>
+</Resource>
+</Resources>
+<WorkStepCosts>
+<NetcostsAPiece unit="EUR">50.155970</NetcostsAPiece>
+<Netcosts unit="EUR">50.155970</Netcosts>
+</WorkStepCosts>
+</WorkingStep>
+</WorkingSteps>
+</WorkingPlan>
+<Technology>
+<RotationMode>0</RotationMode>
+<RotationIncrement unit="°">90.000000</RotationIncrement>
+<MultiPart>0</MultiPart>
+<TwinLine>0</TwinLine>
+<GridFit>0</GridFit>
+<AccountBaseFlag>1</AccountBaseFlag>
+<AccountSheetMode>1</AccountSheetMode>
+<AccountUncompleteSheetSurcharge>0</AccountUncompleteSheetSurcharge>
+<TwoHeadProcessing>0</TwoHeadProcessing>
+<RollingDirection>X</RollingDirection>
+<MultiPartNest>0</MultiPartNest>
+<NestDirectionFlag>X</NestDirectionFlag>
+<MeanderFlag>0</MeanderFlag>
+<NestMode>2</NestMode>
+<NestStrategy>0</NestStrategy>
+<ClampDeadArea unit="mm">0.000000</ClampDeadArea>
+<FitPartInPart>0</FitPartInPart>
+<NestResolution>0</NestResolution>
+<Base unit="mm">10.000000</Base>
+<TwinLineDistance unit="mm">0.000000</TwinLineDistance>
+<DischargeWithOpenFlapFlag>0</DischargeWithOpenFlapFlag>
+<uuid>{e75f717b-4499-4207-9aa1-de201273337a}</uuid>
+<Quality>0</Quality>
+<CADFileName>N:\Wsp-Tym\ESM\autoWycena\geo\GL00001319736_GLD0_01.geo</CADFileName>
+<PartInformation>
+<SizeX unit="mm">798.325000</SizeX>
+<SizeY unit="mm">687.537000</SizeY>
+<PartWeight unit="kg">7.093439</PartWeight>
+<PartArea unit="mm²">451811.378530</PartArea>
+<RectangleArea unit="mm²">548877.975525</RectangleArea>
+<RectangleWeight unit="kg">8.617384</RectangleWeight>
+<CuttingLength unit="mm">4387.203872</CuttingLength>
+<BendingLines>3</BendingLines>
+<BendingLength unit="mm">818.559002</BendingLength>
+</PartInformation>
+<AreaOutside unit="mm²">460610.501242</AreaOutside>
+<AreaInside unit="mm²">8799.122712</AreaInside>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">714.177000</parameter_1>
+<parameter_2 unit="mm">511.554000</parameter_2>
+<parameter_3 unit="mm">714.177000</parameter_3>
+<parameter_4 unit="mm">511.554000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">714.177000</parameter_1>
+<parameter_2 unit="mm">511.554000</parameter_2>
+<parameter_3 unit="mm">732.769000</parameter_3>
+<parameter_4 unit="mm">501.607000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">732.769000</parameter_1>
+<parameter_2 unit="mm">501.607000</parameter_2>
+<parameter_3 unit="mm">738.966000</parameter_3>
+<parameter_4 unit="mm">498.292000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">738.966000</parameter_1>
+<parameter_2 unit="mm">498.292000</parameter_2>
+<parameter_3 unit="mm">753.422000</parameter_3>
+<parameter_4 unit="mm">472.700000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">709.887641</parameter_1>
+<parameter_2 unit="mm">448.108635</parameter_2>
+<parameter_3 unit="mm">753.422000</parameter_3>
+<parameter_4 unit="mm">472.700000</parameter_4>
+<parameter_5 unit="rad">-0.534584</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">759.877000</parameter_1>
+<parameter_2 unit="mm">447.089000</parameter_2>
+<parameter_3 unit="mm">758.018000</parameter_3>
+<parameter_4 unit="mm">355.890000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">808.008011</parameter_1>
+<parameter_2 unit="mm">354.870519</parameter_2>
+<parameter_3 unit="mm">758.018000</parameter_3>
+<parameter_4 unit="mm">355.890000</parameter_4>
+<parameter_5 unit="rad">0.409222</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">308.207442</parameter_1>
+<parameter_2 unit="mm">150.111363</parameter_2>
+<parameter_3 unit="mm">761.740000</parameter_3>
+<parameter_4 unit="mm">335.915000</parameter_4>
+<parameter_5 unit="rad">-0.423140</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">798.036000</parameter_1>
+<parameter_2 unit="mm">133.296000</parameter_2>
+<parameter_3 unit="mm">798.042000</parameter_3>
+<parameter_4 unit="mm">48.296000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">798.042000</parameter_1>
+<parameter_2 unit="mm">48.296000</parameter_2>
+<parameter_3 unit="mm">699.042000</parameter_3>
+<parameter_4 unit="mm">48.289000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">699.042000</parameter_1>
+<parameter_2 unit="mm">50.289000</parameter_2>
+<parameter_3 unit="mm">699.042000</parameter_3>
+<parameter_4 unit="mm">48.289000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">697.042000</parameter_1>
+<parameter_2 unit="mm">50.289000</parameter_2>
+<parameter_3 unit="mm">697.041000</parameter_3>
+<parameter_4 unit="mm">59.289000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">696.041000</parameter_1>
+<parameter_2 unit="mm">59.289000</parameter_2>
+<parameter_3 unit="mm">697.041000</parameter_3>
+<parameter_4 unit="mm">59.289000</parameter_4>
+<parameter_5 unit="rad">3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">695.041000</parameter_1>
+<parameter_2 unit="mm">59.289000</parameter_2>
+<parameter_3 unit="mm">695.045000</parameter_3>
+<parameter_4 unit="mm">5.025000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">690.045000</parameter_1>
+<parameter_2 unit="mm">5.025000</parameter_2>
+<parameter_3 unit="mm">695.045000</parameter_3>
+<parameter_4 unit="mm">5.025000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">690.045000</parameter_1>
+<parameter_2 unit="mm">0.025000</parameter_2>
+<parameter_3 unit="mm">645.045000</parameter_3>
+<parameter_4 unit="mm">0.022000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">645.045000</parameter_1>
+<parameter_2 unit="mm">5.022000</parameter_2>
+<parameter_3 unit="mm">645.045000</parameter_3>
+<parameter_4 unit="mm">0.022000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">640.045000</parameter_1>
+<parameter_2 unit="mm">5.022000</parameter_2>
+<parameter_3 unit="mm">640.041000</parameter_3>
+<parameter_4 unit="mm">59.285000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">639.041000</parameter_1>
+<parameter_2 unit="mm">59.285000</parameter_2>
+<parameter_3 unit="mm">640.041000</parameter_3>
+<parameter_4 unit="mm">59.285000</parameter_4>
+<parameter_5 unit="rad">3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">638.041000</parameter_1>
+<parameter_2 unit="mm">59.285000</parameter_2>
+<parameter_3 unit="mm">638.042000</parameter_3>
+<parameter_4 unit="mm">50.285000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">636.042000</parameter_1>
+<parameter_2 unit="mm">50.285000</parameter_2>
+<parameter_3 unit="mm">638.042000</parameter_3>
+<parameter_4 unit="mm">50.285000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">636.042000</parameter_1>
+<parameter_2 unit="mm">48.285000</parameter_2>
+<parameter_3 unit="mm">362.042000</parameter_3>
+<parameter_4 unit="mm">48.267000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">362.042000</parameter_1>
+<parameter_2 unit="mm">50.267000</parameter_2>
+<parameter_3 unit="mm">362.042000</parameter_3>
+<parameter_4 unit="mm">48.267000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">360.042000</parameter_1>
+<parameter_2 unit="mm">50.267000</parameter_2>
+<parameter_3 unit="mm">360.041000</parameter_3>
+<parameter_4 unit="mm">59.267000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">359.041000</parameter_1>
+<parameter_2 unit="mm">59.267000</parameter_2>
+<parameter_3 unit="mm">360.041000</parameter_3>
+<parameter_4 unit="mm">59.267000</parameter_4>
+<parameter_5 unit="rad">3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">358.041000</parameter_1>
+<parameter_2 unit="mm">59.267000</parameter_2>
+<parameter_3 unit="mm">358.045000</parameter_3>
+<parameter_4 unit="mm">5.003000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">353.045000</parameter_1>
+<parameter_2 unit="mm">5.003000</parameter_2>
+<parameter_3 unit="mm">358.045000</parameter_3>
+<parameter_4 unit="mm">5.003000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">353.045000</parameter_1>
+<parameter_2 unit="mm">0.003000</parameter_2>
+<parameter_3 unit="mm">308.045000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">308.045000</parameter_1>
+<parameter_2 unit="mm">5.000000</parameter_2>
+<parameter_3 unit="mm">308.045000</parameter_3>
+<parameter_4 unit="mm">0.000000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">303.045000</parameter_1>
+<parameter_2 unit="mm">5.000000</parameter_2>
+<parameter_3 unit="mm">303.041000</parameter_3>
+<parameter_4 unit="mm">59.263000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">302.041000</parameter_1>
+<parameter_2 unit="mm">59.263000</parameter_2>
+<parameter_3 unit="mm">303.041000</parameter_3>
+<parameter_4 unit="mm">59.263000</parameter_4>
+<parameter_5 unit="rad">3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">301.041000</parameter_1>
+<parameter_2 unit="mm">59.263000</parameter_2>
+<parameter_3 unit="mm">301.042000</parameter_3>
+<parameter_4 unit="mm">50.263000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">299.042000</parameter_1>
+<parameter_2 unit="mm">50.263000</parameter_2>
+<parameter_3 unit="mm">301.042000</parameter_3>
+<parameter_4 unit="mm">50.263000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">299.042000</parameter_1>
+<parameter_2 unit="mm">48.263000</parameter_2>
+<parameter_3 unit="mm">18.042000</parameter_3>
+<parameter_4 unit="mm">48.244000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">18.042000</parameter_1>
+<parameter_2 unit="mm">48.244000</parameter_2>
+<parameter_3 unit="mm">18.012000</parameter_3>
+<parameter_4 unit="mm">512.508000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">17.012000</parameter_1>
+<parameter_2 unit="mm">512.508000</parameter_2>
+<parameter_3 unit="mm">18.012000</parameter_3>
+<parameter_4 unit="mm">512.508000</parameter_4>
+<parameter_5 unit="rad">3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">16.012000</parameter_1>
+<parameter_2 unit="mm">512.508000</parameter_2>
+<parameter_3 unit="mm">16.012000</parameter_3>
+<parameter_4 unit="mm">507.508000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">14.012000</parameter_1>
+<parameter_2 unit="mm">507.508000</parameter_2>
+<parameter_3 unit="mm">16.012000</parameter_3>
+<parameter_4 unit="mm">507.508000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">14.012000</parameter_1>
+<parameter_2 unit="mm">505.508000</parameter_2>
+<parameter_3 unit="mm">5.012000</parameter_3>
+<parameter_4 unit="mm">505.507000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">5.012000</parameter_1>
+<parameter_2 unit="mm">510.507000</parameter_2>
+<parameter_3 unit="mm">5.012000</parameter_3>
+<parameter_4 unit="mm">505.507000</parameter_4>
+<parameter_5 unit="rad">-1.570796</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">0.012000</parameter_1>
+<parameter_2 unit="mm">510.507000</parameter_2>
+<parameter_3 unit="mm">0.000000</parameter_3>
+<parameter_4 unit="mm">687.507000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">0.000000</parameter_1>
+<parameter_2 unit="mm">687.507000</parameter_2>
+<parameter_3 unit="mm">461.415000</parameter_3>
+<parameter_4 unit="mm">687.537000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">461.415000</parameter_1>
+<parameter_2 unit="mm">687.537000</parameter_2>
+<parameter_3 unit="mm">464.260000</parameter_3>
+<parameter_4 unit="mm">685.701000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">-1151.323102</parameter_1>
+<parameter_2 unit="mm">-1817.944870</parameter_2>
+<parameter_3 unit="mm">464.260000</parameter_3>
+<parameter_4 unit="mm">685.701000</parameter_4>
+<parameter_5 unit="rad">-0.045775</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">577.132000</parameter_1>
+<parameter_2 unit="mm">609.151000</parameter_2>
+<parameter_3 unit="mm">714.177000</parameter_3>
+<parameter_4 unit="mm">511.554000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">116.053000</parameter_1>
+<parameter_2 unit="mm">216.251000</parameter_2>
+<parameter_3 unit="mm">30.000000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">370.539000</parameter_1>
+<parameter_2 unit="mm">341.267000</parameter_2>
+<parameter_3 unit="mm">30.000000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">38.012000</parameter_1>
+<parameter_2 unit="mm">586.569000</parameter_2>
+<parameter_3 unit="mm">38.012000</parameter_3>
+<parameter_4 unit="mm">581.569000</parameter_4>
+<parameter_5 unit="rad">-3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">38.012000</parameter_1>
+<parameter_2 unit="mm">591.569000</parameter_2>
+<parameter_3 unit="mm">63.012000</parameter_3>
+<parameter_4 unit="mm">591.569000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">63.012000</parameter_1>
+<parameter_2 unit="mm">586.569000</parameter_2>
+<parameter_3 unit="mm">63.012000</parameter_3>
+<parameter_4 unit="mm">591.569000</parameter_4>
+<parameter_5 unit="rad">-3.141593</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">63.012000</parameter_1>
+<parameter_2 unit="mm">581.569000</parameter_2>
+<parameter_3 unit="mm">38.012000</parameter_3>
+<parameter_4 unit="mm">581.569000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">165.515000</parameter_1>
+<parameter_2 unit="mm">464.283000</parameter_2>
+<parameter_3 unit="mm">165.514000</parameter_3>
+<parameter_4 unit="mm">469.283000</parameter_4>
+<parameter_5 unit="rad">-3.141793</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">165.515000</parameter_1>
+<parameter_2 unit="mm">459.283000</parameter_2>
+<parameter_3 unit="mm">140.515000</parameter_3>
+<parameter_4 unit="mm">459.281000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">140.515000</parameter_1>
+<parameter_2 unit="mm">464.281000</parameter_2>
+<parameter_3 unit="mm">140.515000</parameter_3>
+<parameter_4 unit="mm">459.281000</parameter_4>
+<parameter_5 unit="rad">-3.141393</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">140.514000</parameter_1>
+<parameter_2 unit="mm">469.281000</parameter_2>
+<parameter_3 unit="mm">165.514000</parameter_3>
+<parameter_4 unit="mm">469.283000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">165.540000</parameter_1>
+<parameter_2 unit="mm">83.312000</parameter_2>
+<parameter_3 unit="mm">140.540000</parameter_3>
+<parameter_4 unit="mm">83.310000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">140.539000</parameter_1>
+<parameter_2 unit="mm">88.310000</parameter_2>
+<parameter_3 unit="mm">140.540000</parameter_3>
+<parameter_4 unit="mm">83.310000</parameter_4>
+<parameter_5 unit="rad">-3.141793</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">140.539000</parameter_1>
+<parameter_2 unit="mm">93.310000</parameter_2>
+<parameter_3 unit="mm">165.539000</parameter_3>
+<parameter_4 unit="mm">93.312000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">165.539000</parameter_1>
+<parameter_2 unit="mm">88.312000</parameter_2>
+<parameter_3 unit="mm">165.539000</parameter_3>
+<parameter_4 unit="mm">93.312000</parameter_4>
+<parameter_5 unit="rad">-3.141393</parameter_5>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">400.515000</parameter_1>
+<parameter_2 unit="mm">464.298000</parameter_2>
+<parameter_3 unit="mm">400.514000</parameter_3>
+<parameter_4 unit="mm">469.298000</parameter_4>
+<parameter_5 unit="rad">-3.141793</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">400.515000</parameter_1>
+<parameter_2 unit="mm">459.298000</parameter_2>
+<parameter_3 unit="mm">375.515000</parameter_3>
+<parameter_4 unit="mm">459.297000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">375.515000</parameter_1>
+<parameter_2 unit="mm">464.297000</parameter_2>
+<parameter_3 unit="mm">375.515000</parameter_3>
+<parameter_4 unit="mm">459.297000</parameter_4>
+<parameter_5 unit="rad">-3.141393</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">375.514000</parameter_1>
+<parameter_2 unit="mm">469.297000</parameter_2>
+<parameter_3 unit="mm">400.514000</parameter_3>
+<parameter_4 unit="mm">469.298000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">400.539000</parameter_1>
+<parameter_2 unit="mm">88.328000</parameter_2>
+<parameter_3 unit="mm">400.539000</parameter_3>
+<parameter_4 unit="mm">93.328000</parameter_4>
+<parameter_5 unit="rad">-3.141393</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">400.540000</parameter_1>
+<parameter_2 unit="mm">83.328000</parameter_2>
+<parameter_3 unit="mm">375.540000</parameter_3>
+<parameter_4 unit="mm">83.326000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">375.539000</parameter_1>
+<parameter_2 unit="mm">88.326000</parameter_2>
+<parameter_3 unit="mm">375.540000</parameter_3>
+<parameter_4 unit="mm">83.326000</parameter_4>
+<parameter_5 unit="rad">-3.141793</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">375.539000</parameter_1>
+<parameter_2 unit="mm">93.326000</parameter_2>
+<parameter_3 unit="mm">400.539000</parameter_3>
+<parameter_4 unit="mm">93.328000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">635.515000</parameter_1>
+<parameter_2 unit="mm">464.314000</parameter_2>
+<parameter_3 unit="mm">635.514000</parameter_3>
+<parameter_4 unit="mm">469.314000</parameter_4>
+<parameter_5 unit="rad">-3.141793</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">635.515000</parameter_1>
+<parameter_2 unit="mm">459.314000</parameter_2>
+<parameter_3 unit="mm">610.515000</parameter_3>
+<parameter_4 unit="mm">459.312000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">610.515000</parameter_1>
+<parameter_2 unit="mm">464.312000</parameter_2>
+<parameter_3 unit="mm">610.515000</parameter_3>
+<parameter_4 unit="mm">459.312000</parameter_4>
+<parameter_5 unit="rad">-3.141393</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">610.514000</parameter_1>
+<parameter_2 unit="mm">469.312000</parameter_2>
+<parameter_3 unit="mm">635.514000</parameter_3>
+<parameter_4 unit="mm">469.314000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">635.539000</parameter_1>
+<parameter_2 unit="mm">88.343000</parameter_2>
+<parameter_3 unit="mm">635.539000</parameter_3>
+<parameter_4 unit="mm">93.343000</parameter_4>
+<parameter_5 unit="rad">-3.141393</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">635.540000</parameter_1>
+<parameter_2 unit="mm">83.343000</parameter_2>
+<parameter_3 unit="mm">610.540000</parameter_3>
+<parameter_4 unit="mm">83.341000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>3</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">610.539000</parameter_1>
+<parameter_2 unit="mm">88.341000</parameter_2>
+<parameter_3 unit="mm">610.540000</parameter_3>
+<parameter_4 unit="mm">83.341000</parameter_4>
+<parameter_5 unit="rad">-3.141793</parameter_5>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">610.539000</parameter_1>
+<parameter_2 unit="mm">93.341000</parameter_2>
+<parameter_3 unit="mm">635.539000</parameter_3>
+<parameter_4 unit="mm">93.343000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">95.788000</parameter_1>
+<parameter_2 unit="mm">290.999000</parameter_2>
+<parameter_3 unit="mm">95.788000</parameter_3>
+<parameter_4 unit="mm">294.499000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">95.788000</parameter_1>
+<parameter_2 unit="mm">294.499000</parameter_2>
+<parameter_3 unit="mm">136.288000</parameter_3>
+<parameter_4 unit="mm">294.502000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">136.288000</parameter_1>
+<parameter_2 unit="mm">294.502000</parameter_2>
+<parameter_3 unit="mm">136.288000</parameter_3>
+<parameter_4 unit="mm">291.002000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">136.288000</parameter_1>
+<parameter_2 unit="mm">291.002000</parameter_2>
+<parameter_3 unit="mm">95.788000</parameter_3>
+<parameter_4 unit="mm">290.999000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">95.798000</parameter_1>
+<parameter_2 unit="mm">138.049000</parameter_2>
+<parameter_3 unit="mm">95.798000</parameter_3>
+<parameter_4 unit="mm">141.499000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">95.798000</parameter_1>
+<parameter_2 unit="mm">141.499000</parameter_2>
+<parameter_3 unit="mm">136.298000</parameter_3>
+<parameter_4 unit="mm">141.502000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">136.298000</parameter_1>
+<parameter_2 unit="mm">141.502000</parameter_2>
+<parameter_3 unit="mm">136.298000</parameter_3>
+<parameter_4 unit="mm">138.052000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">136.298000</parameter_1>
+<parameter_2 unit="mm">138.052000</parameter_2>
+<parameter_3 unit="mm">95.798000</parameter_3>
+<parameter_4 unit="mm">138.049000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">385.780000</parameter_1>
+<parameter_2 unit="mm">419.519000</parameter_2>
+<parameter_3 unit="mm">385.780000</parameter_3>
+<parameter_4 unit="mm">416.019000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">385.780000</parameter_1>
+<parameter_2 unit="mm">416.019000</parameter_2>
+<parameter_3 unit="mm">355.280000</parameter_3>
+<parameter_4 unit="mm">416.017000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">355.280000</parameter_1>
+<parameter_2 unit="mm">416.017000</parameter_2>
+<parameter_3 unit="mm">355.280000</parameter_3>
+<parameter_4 unit="mm">419.517000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">355.280000</parameter_1>
+<parameter_2 unit="mm">419.517000</parameter_2>
+<parameter_3 unit="mm">385.780000</parameter_3>
+<parameter_4 unit="mm">419.519000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">355.290000</parameter_1>
+<parameter_2 unit="mm">263.017000</parameter_2>
+<parameter_3 unit="mm">355.290000</parameter_3>
+<parameter_4 unit="mm">266.517000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">355.290000</parameter_1>
+<parameter_2 unit="mm">266.517000</parameter_2>
+<parameter_3 unit="mm">385.790000</parameter_3>
+<parameter_4 unit="mm">266.519000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">385.790000</parameter_1>
+<parameter_2 unit="mm">266.519000</parameter_2>
+<parameter_3 unit="mm">385.790000</parameter_3>
+<parameter_4 unit="mm">263.019000</parameter_4>
+</GeoSegment>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">385.790000</parameter_1>
+<parameter_2 unit="mm">263.019000</parameter_2>
+<parameter_3 unit="mm">355.290000</parameter_3>
+<parameter_4 unit="mm">263.017000</parameter_4>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">143.021000</parameter_1>
+<parameter_2 unit="mm">610.527000</parameter_2>
+<parameter_3 unit="mm">5.500000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">138.002000</parameter_1>
+<parameter_2 unit="mm">662.356000</parameter_2>
+<parameter_3 unit="mm">4.500000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">330.594000</parameter_1>
+<parameter_2 unit="mm">20.030000</parameter_2>
+<parameter_3 unit="mm">4.500000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">378.002000</parameter_1>
+<parameter_2 unit="mm">662.356000</parameter_2>
+<parameter_3 unit="mm">4.500000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<ExacteGeometry>
+<GeoSegment>
+<segment_type>2</segment_type>
+<color>1</color>
+<parameter_1 unit="mm">667.494000</parameter_1>
+<parameter_2 unit="mm">20.052000</parameter_2>
+<parameter_3 unit="mm">4.500000</parameter_3>
+</GeoSegment>
+</ExacteGeometry>
+<Bend>
+<BendType>0</BendType>
+<BendTechnology>0</BendTechnology>
+<BendMethod>0</BendMethod>
+<ConeAngle unit="°">90.000000</ConeAngle>
+<PreAngle unit="°">0.000000</PreAngle>
+<BendRadius unit="mm">3.661902</BendRadius>
+<FoldingFactor unit="mm">-6.736580</FoldingFactor>
+<UpperDie>OW200/K R1/86 H120</UpperDie>
+<LowerDie>EV W10/84 R1</LowerDie>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>4</color>
+<parameter_1 unit="mm">358.042000</parameter_1>
+<parameter_2 unit="mm">51.635000</parameter_2>
+<parameter_3 unit="mm">303.042000</parameter_3>
+<parameter_4 unit="mm">51.631000</parameter_4>
+</GeoSegment>
+</Bend>
+<Bend>
+<BendType>0</BendType>
+<BendTechnology>0</BendTechnology>
+<BendMethod>0</BendMethod>
+<ConeAngle unit="°">90.000000</ConeAngle>
+<PreAngle unit="°">0.000000</PreAngle>
+<BendRadius unit="mm">3.661902</BendRadius>
+<FoldingFactor unit="mm">-6.736580</FoldingFactor>
+<UpperDie>OW200/K R1/86 H120</UpperDie>
+<LowerDie>EV W10/84 R1</LowerDie>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>4</color>
+<parameter_1 unit="mm">695.042000</parameter_1>
+<parameter_2 unit="mm">51.657000</parameter_2>
+<parameter_3 unit="mm">640.042000</parameter_3>
+<parameter_4 unit="mm">51.654000</parameter_4>
+</GeoSegment>
+</Bend>
+<Bend>
+<BendType>0</BendType>
+<BendTechnology>0</BendTechnology>
+<BendMethod>0</BendMethod>
+<ConeAngle unit="°">90.000000</ConeAngle>
+<PreAngle unit="°">0.000000</PreAngle>
+<BendRadius unit="mm">3.661902</BendRadius>
+<FoldingFactor unit="mm">-6.736580</FoldingFactor>
+<UpperDie>OW200/K R1/86 H120</UpperDie>
+<LowerDie>EV W10/84 R1</LowerDie>
+<GeoSegment>
+<segment_type>1</segment_type>
+<color>4</color>
+<parameter_1 unit="mm">18.012000</parameter_1>
+<parameter_2 unit="mm">504.876000</parameter_2>
+<parameter_3 unit="mm">726.571000</parameter_3>
+<parameter_4 unit="mm">504.923000</parameter_4>
+</GeoSegment>
+</Bend>
+<ApproxGeometry>
+<outside>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>0</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>19</contour_type>
+<description>Dowolny kontur 2 980,8x3,4x798,3x687,5x5x1</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">460610.000000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">2980.750000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">3.386100</val>
+</parameter_2>
+<parameter_3>
+<val unit="mm">798.325000</val>
+</parameter_3>
+<parameter_4>
+<val unit="mm">687.537000</val>
+</parameter_4>
+<parameter_5>
+<val unit="Ilość">5.000000</val>
+</parameter_5>
+<parameter_6>
+<val unit="">1.000000</val>
+</parameter_6>
+<parameter_7>
+<val unit="">0.000000</val>
+</parameter_7>
+</contour>
+</outside>
+<inside>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>11</contour_type>
+<description>Okrąg 9</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>4</quantity>
+<area unit="mm²">63.617300</area>
+<average_distance>
+<val unit="mm">673.061000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">9.000000</val>
+</parameter_1>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>11</contour_type>
+<description>Okrąg 11</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">95.033200</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">11.000000</val>
+</parameter_1>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 30,5x3,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">106.750000</area>
+<average_distance>
+<val unit="mm">153.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">30.500000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">3.500000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 40,5x3,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">139.725000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">40.500000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">3.450000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>13</contour_type>
+<description>Prostokąt 40,5x3,5</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>1</quantity>
+<area unit="mm²">141.750000</area>
+<average_distance>
+<val unit="mm">0.000000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">40.500000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">3.500000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>15</contour_type>
+<description>Fasolka 35x10</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>7</quantity>
+<area unit="mm²">328.540000</area>
+<average_distance>
+<val unit="mm">362.370000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">35.000000</val>
+</parameter_1>
+<parameter_2>
+<val unit="mm">10.000000</val>
+</parameter_2>
+</contour>
+<contour>
+<punch_process>
+<tool></tool>
+<punch_out>1</punch_out>
+<downholder>0</downholder>
+<forming_position>0</forming_position>
+</punch_process>
+<laser_process>
+<laser_table_name>T2D-5102</laser_table_name>
+<rule_name>T2D-5102-1</rule_name>
+<contour_size>0</contour_size>
+<laser_mode>0</laser_mode>
+<cut_begin>1</cut_begin>
+</laser_process>
+<contour_type>11</contour_type>
+<description>Okrąg 60</description>
+<laser>1</laser>
+<disposal>10000</disposal>
+<quantity>2</quantity>
+<area unit="mm²">2827.430000</area>
+<average_distance>
+<val unit="mm">283.536000</val>
+</average_distance>
+<parameter_1>
+<val unit="mm">60.000000</val>
+</parameter_1>
+</contour>
+</inside>
+</ApproxGeometry>
+</Technology>
+<Consistent>true</Consistent>
+<SalesPrices>
+<OrderPrice>
+<NetcostsOrder unit="EUR">50.155970</NetcostsOrder>
+<GrosscostsOrder unit="EUR">50.155970</GrosscostsOrder>
+<NetcostsAPiece unit="EUR/Ilość">50.155970</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">50.155970</GrosscostsAPiece>
+</OrderPrice>
+<ScalePrices>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">50.155970</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">50.155970</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry type="order quantity">
+<Quantity unit="Ilość">1.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">50.155970</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">50.155970</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">5.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">27.792528</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.792528</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">10.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">27.328078</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">27.328078</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">50.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">23.276000</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">23.276000</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">100.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">22.998643</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">22.998643</GrosscostsAPiece>
+</ScalePriceEntry>
+<ScalePriceEntry>
+<Quantity unit="Ilość">500.000000</Quantity>
+<QuantityDiscount>0</QuantityDiscount>
+<NetcostsAPiece unit="EUR/Ilość">22.593436</NetcostsAPiece>
+<GrosscostsAPiece unit="EUR/Ilość">22.593436</GrosscostsAPiece>
+</ScalePriceEntry>
+</ScalePrices>
+</SalesPrices>
+</Part>
+</Parts>
+<nesting>
+<allocation-list part-group-id="TruLaser 3030 (L3030)_MET / St37-20">
+<allocation part="{e75f717b-4499-4207-9aa1-de201273337a}" sheet-id="ST0M0200----3000x1500">
+<alloctype>0</alloctype>
+<doublehead>0</doublehead>
+<numsheets>0</numsheets>
+<id>{0198b9d4-461a-4957-a5ce-a8d7bc9ad790}</id>
+<pos-list>
+<pos data="13.6755;802.463;0;13.6755;802.463;812;1490" meta="0;0;0"/>
+<pos data="805.675;802.463;0;805.675;802.463;1604;1490" meta="0;0;0"/>
+<pos data="1597.68;802.463;0;1597.68;802.463;2396;1490" meta="0;0;0"/>
+<pos data="13.6755;103.463;0;13.6755;103.463;812;791" meta="0;2;0"/>
+<pos data="805.675;103.463;0;805.675;103.463;1604;791" meta="0;2;0"/>
+<pos data="1597.68;103.463;0;1597.68;103.463;2396;791" meta="0;2;0"/>
+</pos-list>
+</allocation>
+<allocation part="{e75f717b-4499-4207-9aa1-de201273337a}" sheet-id="ST0M0200----3000x1500">
+<alloctype>1</alloctype>
+<doublehead>0</doublehead>
+<numsheets>1</numsheets>
+<id>{c152fd6d-53d0-4e1c-81f2-1b81f7bb3430}</id>
+<pos-list>
+<pos data="13.6755;802.463;0;13.6755;802.463;812;1490" meta="0;0;0"/>
+</pos-list>
+</allocation>
+</allocation-list>
+<allocation-list part-group-id="TruLaser 3030 (L3030) / St37-20">
+<allocation part="{247e80c4-9c37-4f2a-b364-879a7cba7b15}" sheet-id="ST0M0200----3000x1500">
+<alloctype>0</alloctype>
+<doublehead>0</doublehead>
+<numsheets>0</numsheets>
+<id>{1b24ae4a-3aba-4eca-906a-bcd9884ae30b}</id>
+<pos-list>
+<pos data="13;191.232;0;13;191.232;1073;1490" meta="0;0;0"/>
+<pos data="1084;191.232;0;1084;191.232;2144;1490" meta="0;0;0"/>
+</pos-list>
+</allocation>
+<allocation part="{247e80c4-9c37-4f2a-b364-879a7cba7b15}" sheet-id="ST0M0200----3000x1500">
+<alloctype>1</alloctype>
+<doublehead>0</doublehead>
+<numsheets>1</numsheets>
+<id>{6223e1b0-a353-48e9-b95b-1014ce414afb}</id>
+<pos-list>
+<pos data="13;191.232;0;13;191.232;1073;1490" meta="0;0;0"/>
+</pos-list>
+</allocation>
+</allocation-list>
+</nesting>
+</body>
+</document>
