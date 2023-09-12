@@ -73,9 +73,21 @@ def read_TKW():
                 msb.showinfo(
                     title="Błąd", message="Niekompletne dane o ilości na dostawę dla kodu: " + str(KOD.value) + "\nProgram zostanie zamknięty, popraw dane.")
                 exit()
+                kod = ''
+                rysunek = ''
+            if KOD.value is not None:
+                kod = str(KOD.value.upper())
+            else:
+                kod = None
+            if Rysunek.value is not None:
+                rysunek = str(Rysunek.value.upper())
+            else:
+                rysunek = None
 
-            kod = {"kod": str(KOD.value.upper()), "rysunek": str(Rysunek.value.upper()),
+            kod = {"kod": kod, "rysunek": str(rysunek),
                    "ilosc_na_dostawe": ilosc_na_dostawe.value, "rodzaj_materialu": rodzaj_materialu.value, "grubosc_blachy": grubosc_blachy.value}
+
+            print(kod)
             lista_kodow.append(kod)
 
         n += 1
