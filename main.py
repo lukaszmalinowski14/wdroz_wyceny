@@ -7,6 +7,7 @@ from tkinter import Tk     # from tkinter import Tk for Python 3.x
 from tkinter.filedialog import askopenfilename
 from tkinter import messagebox as msb
 import os
+import fileinput
 
 
 # deklaracja lokalizacji plików i zmiennych
@@ -76,11 +77,11 @@ def read_TKW():
                 kod = ''
                 rysunek = ''
             if KOD.value is not None:
-                kod = str(KOD.value.upper())
+                kod = str(KOD.value).upper()
             else:
                 kod = None
             if Rysunek.value is not None:
-                rysunek = str(Rysunek.value.upper())
+                rysunek = str(Rysunek.value).upper()
             else:
                 rysunek = None
 
@@ -157,12 +158,23 @@ def Resource_articleNO(rodzaj_materialu, grubosc_blachy):
     return kod_materialu + '-' + grubosc_kod+'x3000x1500'
 
 
+def zamien_znaki(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    content = content.replace('ł', 'l').replace('Ł', 'L')
+    content = content.replace('ń', 'n').replace('Ń', 'N')
+    content = content.replace('ż', 'z').replace('Ż', 'Z')
+    content = content.replace('ó', 'o').replace('Ó', 'O')
+    content = content.replace('ź', 'z').replace('Ź', 'Z')
+
+    with open(filename, 'w', encoding='utf-8') as file:
+        file.write(content)
+
+
 def parse_xml(path):
-    # parsing directly.
-    # with open('path', 'r') as file:
-    #     data = file.read().replace('\n', '')
-    data = open(dokument_kalkulacji, 'r').read()
-    # data = Path(path).read_text()
+    # zamiana polskich znaków
+    zamien_znaki(path)
 
     tree = ET.parse(path)
     root = tree.getroot()
